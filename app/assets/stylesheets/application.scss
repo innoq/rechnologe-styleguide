@@ -11,23 +11,24 @@ INNOQ Styleguide
 /*
 Application specific code
 */
-@use "app/components/amount";
-@use "app/components/button";
-@use "app/components/button-group";
-@use "app/components/flash";
-@use "app/components/icon";
-@use "app/components/main-layout";
-@use "app/components/navbar";
-@use "app/components/page-category";
-@use "app/components/progress-bar";
-@use "app/components/squishable";
-@use "app/components/tabelle";
-@use "app/components/tabelle-toggler";
-@use "app/components/table";
-@use "app/components/table-responsive";
+@use "../../components/amount";
+@use "../../components/badge";
+@use "../../components/button";
+@use "../../components/button-group";
+@use "../../components/flash";
+@use "../../components/icon";
+@use "../../components/main-layout";
+@use "../../components/navbar";
+@use "../../components/page-category";
+@use "../../components/progress-bar";
+@use "../../components/squishable";
+@use "../../components/tabelle";
+@use "../../components/tabelle-toggler";
+@use "../../components/table";
+@use "../../components/table-responsive";
 
 :root {
-  --background-color: #{colors.$brand-gray-10};
+  --background-color: colors.$brand-gray-10;
   font-family: typography.$font-family-sans-serif;
   font-size: typography.$font-size-md;
 }

@@ -15,7 +15,8 @@ module ComponentHelper
   end
 
   # NOTE: this differs in nearly all conceivable ways from the JSX version.
-  def navbar_item_tag(href, current: false, symbol:, label:, &block)
+  def navbar_item_tag(href, current: false, symbol:, label: nil, &block)
+    label = capture(&block) if block_given?
     link_to href, class: "navbar-item #{'current' if current}" do
       raw <<~EOS
         <div class="symbol">#{icon_tag symbol}</div>
@@ -25,7 +26,9 @@ module ComponentHelper
   end
 
   # NOTE: this differs in nearly all conceivable ways from the JSX version.
-  def navbar_brand_tag(href, symbol:, label:, &block)
+  def navbar_brand_tag(href, symbol:, label: nil, &block)
+    label = capture(&block) if block_given?
+
     link_to href, class: 'navbar-item brand' do
       raw <<~EOS
         <div class="symbol">#{icon_tag symbol}</div>

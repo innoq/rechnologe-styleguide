@@ -35,4 +35,25 @@
   &.icon-upload {
     @include helpers.icon-before("upload.svg", inherit, 1.5rem);
   }
+  &.icon-warning {
+    @include helpers.icon-before("warning.svg", inherit, 1.5rem);
+  }
+  &.icon-eye {
+    @include helpers.icon-before("eye.svg", inherit, 1.5rem);
+  }
+  &.icon-whip {
+    @include helpers.icon-before("whip.svg", inherit, 1.5rem);
+  }
+  &.icon-thumbsup {
+    @include helpers.icon-before("thumbsup.svg", inherit, 1.5rem);
+  }
+  &.icon-remind {
+    @include helpers.icon-before("remind.svg", inherit, 1.5rem);
+  }
+  &.icon-reminded {
+    @include helpers.icon-before("reminded.svg", inherit, 1.5rem);
+  }
+  &.icon-add {
+    @include helpers.icon-before("add.svg", inherit, 1.5rem);
+  }
 }

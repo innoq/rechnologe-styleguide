@@ -31,3 +31,6 @@ npm start
 ```
 
 Visit http://localhost:3000 to visit the app, and http://localhost:4001 to visit the pattern library.
+
+
+icons used: https://material.io/resources/icons/?style=outline
