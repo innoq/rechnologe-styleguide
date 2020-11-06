@@ -1,47 +1,48 @@
 module.exports = {
-  title: "Example",
+  title: "Rechnologe Styleguide",
   language: "en",
-  description: "An example for our workshop",
+  description: "Styleguide for Rechnologe",
 
   pages: {
-    "": "./app/components/README.md",
-    colors: "./app/components/colors.md",
-    spacers: "./app/components/spacers.md",
+    "": "./components/README.md",
+    colors: "./components/colors.md",
+    spacers: "./components/spacers.md",
     atoms: {
-      file: "./app/components/ATOMS.md",
+      file: "./components/ATOMS.md",
       children: {
-        amount: "./app/components/amount/README.md",
-        button: "./app/components/button/README.md",
-        flash: "./app/components/flash/README.md",
-        icon: "./app/components/icon/README.md",
-        page_category: "./app/components/page-category/README.md",
-        progress_bar: "./app/components/progress-bar/README.md"
+        amount: "./components/amount/README.md",
+        button: "./components/button/README.md",
+        flash: "./components/flash/README.md",
+        icon: "./components/icon/README.md",
+        page_category: "./components/page-category/README.md",
+        progress_bar: "./components/progress-bar/README.md"
       }
     },
     molecules: {
-      file: "./app/components/MOLECULES.md",
+      file: "./components/MOLECULES.md",
       children: {
-        button_group: "./app/components/button-group/README.md"
+        button_group: "./components/button-group/README.md"
       }
     },
     organisms: {
-      file: "./app/components/ORGANISMS.md",
+      file: "./components/ORGANISMS.md",
       children: {
-        navbar: "./app/components/navbar/README.md",
+        navbar: "./components/navbar/README.md",
         table: {
-          file: "./app/components/table/README.md",
+          file: "./components/table/table/README.md",
           children: {
-            tabelle: "./app/components/tabelle/README.md",
-            responsive: "./app/components/table-responsive/README.md"
+            tabelle: "./components/table/tabelle/README.md",
+            responsive: "./components/table/table-responsive/README.md"
           }
         },
-        main_layout: "./app/components/main-layout/README.md"
+        main_layout: "./components/main-layout/README.md"
       }
     },
     pages: {
-      file: "./app/components/PAGES.md",
+      file: "./components/PAGES.md",
       children: {
-        invoices: "./app/components/pages/invoices.md"
+        startpage_backoffice: "./components/pages/startpage-backoffice.md",
+        invoices_overview: "./components/pages/invoices-overview.md"
       }
     }
   },
@@ -49,27 +50,27 @@ module.exports = {
   snippetAssets: {
     js: [
       {
-        source: "./app/assets/javascripts/application.js",
+        source: "./assets/javascripts/application.js",
         target: "./application.js"
       }
     ],
     sass: [
       {
-        source: "./app/assets/stylesheets/application.scss",
+        source: "./assets/stylesheets/application.scss",
         target: "./application.css"
       },
       {
-        source: "./app/assets/stylesheets/styleguide.scss",
+        source: "./assets/stylesheets/styleguide.scss",
         target: "./styleguide.css"
       }
     ],
     static: [
       {
-        source: "./app/assets/images",
+        source: "./assets/images",
         target: "./images"
       }
     ]
   },
 
-  watchDirs: ["./app/assets", "./app/components"]
+  watchDirs: ["./assets", "./components"]
 };

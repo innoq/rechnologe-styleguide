@@ -1,3 +1,0 @@
-module ComponentHelper
-
-end
