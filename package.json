@@ -7,8 +7,9 @@
     "compile": "faucet --fingerprint --compact",
     "compile:watch": "faucet --watch",
     "start": "npm-run-all --parallel compile:watch aiur:watch",
-    "eslint": "eslint --cache app/assets/javascripts/**/*.js app/views/**/*.jsx app/components/**/*.jsx app/components/**/*.js",
-    "stylelint": "stylelint app/assets/stylesheets/**/*.scss app/components/**/*.scss",
+    "eslint": "eslint --cache assets/javascripts/**/*.js components/**/*.js",
+    "stylelint": "stylelint assets/stylesheets/**/*.scss components/**/*.scss",
+    "prettier": "prettier --write assets/javascripts/**/*.js components/**/*.js assets/stylesheets/**/*.scss components/**/*.scss",
     "test": "npm run eslint && npm run stylelint"
   },
   "devDependencies": {
