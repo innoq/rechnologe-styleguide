@@ -34,6 +34,7 @@
       grid-area: buttons;
       margin: 0;
       align-self: end;
+      justify-content: flex-end;
 
       & + * {
         margin-top: spacings.$spacer-lg;

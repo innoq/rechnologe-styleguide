@@ -10,6 +10,7 @@ module.exports = {
     atoms: {
       file: "./components/ATOMS.md",
       children: {
+        text: "./components/text/README.md",
         amount: "./components/amount/README.md",
         button: "./components/button/README.md",
         flash: "./components/flash/README.md",
@@ -42,7 +43,8 @@ module.exports = {
       file: "./components/PAGES.md",
       children: {
         startpage_backoffice: "./components/pages/startpage-backoffice.md",
-        invoices_overview: "./components/pages/invoices-overview.md"
+        invoices_overview: "./components/pages/invoices-overview.md",
+        invoices_detail: "./components/pages/invoices-detail.md"
       }
     }
   },

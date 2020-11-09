@@ -2,11 +2,13 @@
 
 @use "../../../assets/stylesheets/spacers" as spacings;
 @use "../../../assets/stylesheets/typography" as typography;
+@use "../../text";
 
 @mixin table-header-style() {
-  color: colors.$brand-blue-75;
+  @extend %heading-font-bold;
+  @extend %muted;
+
   font-size: typography.$font-size-sm;
-  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -23,13 +25,15 @@
     align-self: end;
     padding: spacings.$spacer-xxs spacings.$spacer-xs;
   }
+
   tbody {
     background-color: white;
+    color: colors.$brand-blue;
   }
+
   td {
     padding: spacings.$spacer-md spacings.$spacer-xs;
     border-top: 1px solid var(--border-color-td);
-    color: colors.$brand-blue;
 
     &:first-child {
       border-left: 1px solid var(--border-color-td);
@@ -37,12 +41,8 @@
     &:last-child {
       border-right: 1px solid var(--border-color-td);
     }
-
     &.emphasized {
-      font-weight: bold;
-    }
-    &.muted {
-      color: colors.$brand-blue-50;
+      @extend %heading-font-bold;
     }
   }
   tr:last-child td {

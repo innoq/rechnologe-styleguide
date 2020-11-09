@@ -9,7 +9,7 @@
   position: relative;
   border: 3px solid transparent;
   text-decoration: none;
-  padding: spacings.$spacer-xs spacings.$spacer-sm;
+  padding: spacings.$spacer-xxs spacings.$spacer-sm;
   font-family: typography.$font-family-sans-serif;
   font-size: typography.$font-size-base;
   background-color: inherit;
@@ -23,21 +23,21 @@
     border-color: colors.$brand-red;
     color: white;
 
-    @include helpers.hover-fill(colors.$brand-blue, white, white);
     &:focus,
     &:hover {
       border-color: colors.$brand-blue;
+      background-color: colors.$brand-blue;
     }
   }
   &.secondary {
     border-color: colors.$brand-blue;
     color: colors.$brand-blue;
 
-    @include helpers.hover-fill(
-      colors.$brand-red,
-      colors.$brand-blue,
-      colors.$brand-blue
-    );
+    &:focus,
+    &:hover {
+      border-color: colors.$brand-red;
+      background-color: colors.$brand-blue;
+    }
   }
   &.tertiary {
     border-color: colors.$brand-red;

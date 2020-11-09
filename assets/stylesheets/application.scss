@@ -25,6 +25,7 @@ Application specific code
 @use "../../components/table/tabelle-toggler";
 @use "../../components/table/table";
 @use "../../components/table/table-responsive";
+@use "../../components/text";
 
 :root {
   --background-color: colors.$brand-gray-10;

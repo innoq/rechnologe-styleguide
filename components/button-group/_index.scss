@@ -8,6 +8,5 @@ $space-between: spacings.$spacer-xxs;
 
   & > * {
     margin: ($space-between / 2);
-    flex-grow: 1;
   }
 }

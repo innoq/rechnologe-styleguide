@@ -105,51 +105,27 @@ A `Navbar` component can contain any number of items. These are simply basic HTM
 
   <nav class="secondary-navbar">
     <a class="navbar-item current">
-      <div class="symbol">
-        <span class="icon icon-snooze" role="presentation"></span>
-      </div>
-      <div class="label">
-        Abwarten
-      </div>
+      <div class="symbol"><span class="icon icon-snooze" role="presentation"></span></div>
+      <div class="label">Abwarten 6</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-bolt" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhaken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-bolt" role="presentation"></span></div>
+      <div class="label">Leistungen freigeben 15</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-pencil" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhacken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-pencil" role="presentation"></span></div>
+      <div class="label">Bearbeiten 2</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-crown" role="presentation"></span>
-      </div>
-      <div class="label">
-        Freigeben lassen
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-crown" role="presentation"></span></div>
+      <div class="label">Prinzenfreigabe 10</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-plane" role="presentation"></span>
-      </div>
-      <div class="label">
-        Versenden
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-plane" role="presentation"></span></div>
+      <div class="label">Versenden 8</div>
     </a>
-
   </nav>
+
   <main style="height: 300px; background-color: var(--background-color);">
     This is the region for the main content area.
   </main>
@@ -218,50 +194,25 @@ A `Navbar` component can contain any number of items. These are simply basic HTM
 
   <nav class="secondary-navbar">
     <a class="navbar-item current">
-      <div class="symbol">
-        <span class="icon icon-snooze" role="presentation"></span>
-      </div>
-      <div class="label">
-        Abwarten
-      </div>
+      <div class="symbol"><span class="icon icon-snooze" role="presentation"></span></div>
+      <div class="label">Abwarten 6</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-bolt" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhaken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-bolt" role="presentation"></span></div>
+      <div class="label">Leistungen freigeben 15</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-pencil" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhacken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-pencil" role="presentation"></span></div>
+      <div class="label">Bearbeiten 2</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-crown" role="presentation"></span>
-      </div>
-      <div class="label">
-        Freigeben lassen
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-crown" role="presentation"></span></div>
+      <div class="label">Prinzenfreigabe 10</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-plane" role="presentation"></span>
-      </div>
-      <div class="label">
-        Versenden
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-plane" role="presentation"></span></div>
+      <div class="label">Versenden 8</div>
     </a>
-
   </nav>
   <main style="height: 300px; background-color: var(--background-color);">
     This is the region for the main content area.
@@ -331,51 +282,27 @@ Just instantiating the `Navbar` component outside of the navbar layout will posi
 
   <nav class="secondary-navbar">
     <a class="navbar-item current">
-      <div class="symbol">
-        <span class="icon icon-snooze" role="presentation"></span>
-      </div>
-      <div class="label">
-        Abwarten
-      </div>
+      <div class="symbol"><span class="icon icon-snooze" role="presentation"></span></div>
+      <div class="label">Abwarten 6</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-bolt" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhaken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-bolt" role="presentation"></span></div>
+      <div class="label">Leistungen freigeben 15</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-pencil" role="presentation"></span>
-      </div>
-      <div class="label">
-        Nachhacken
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-pencil" role="presentation"></span></div>
+      <div class="label">Bearbeiten 2</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-crown" role="presentation"></span>
-      </div>
-      <div class="label">
-        Freigeben lassen
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-crown" role="presentation"></span></div>
+      <div class="label">Prinzenfreigabe 10</div>
     </a>
-
-    <a class="navbar-item ">
-      <div class="symbol">
-        <span class="icon icon-plane" role="presentation"></span>
-      </div>
-      <div class="label">
-        Versenden
-      </div>
+    <a class="navbar-item">
+      <div class="symbol"><span class="icon icon-plane" role="presentation"></span></div>
+      <div class="label">Versenden 8</div>
     </a>
-
   </nav>
+
   <main style="height: 300px; background-color: var(--background-color);">
     This is the region for the main content area.
   </main>
