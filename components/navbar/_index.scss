@@ -51,19 +51,23 @@ which moves the navbar to the left-hand side */
     .symbol {
       background-color: colors.$brand-blue-75;
     }
+
     .label {
       color: colors.$brand-red;
     }
   }
+
   .brand {
     .label {
       @include helpers.visually-hidden();
     }
+
     &:hover {
       background-color: colors.$brand-blue;
     }
   }
 }
+
 .secondary-navbar {
   --background-color: #{colors.$brand-gray-75};
   --hover-color: #{colors.$brand-gray-50};
@@ -131,11 +135,13 @@ which moves the navbar to the left-hand side */
         Currently only in Firefox supported, so we need both. */
         grid-template-columns: subgrid;
       }
+
       .brand {
         position: static;
         width: auto;
       }
     }
+
     .brand + .navbar-item {
       --border-color: var(--hover-color);
       grid-template-rows: 1px [item-start] calc(4rem - 1px);
@@ -144,14 +150,17 @@ which moves the navbar to the left-hand side */
         margin: 0 spacers.$spacer-xs;
         border-bottom: 1px solid var(--border-color);
       }
+
       .symbol,
       .label {
         grid-row-start: item-start;
       }
     }
+
     .brand + .current {
       --border-color: transparent;
     }
+
     .secondary-navbar {
       display: flex;
 
@@ -165,14 +174,17 @@ which moves the navbar to the left-hand side */
         .symbol {
           align-self: end;
         }
+
         .label {
           justify-self: center;
           align-self: start;
         }
       }
+
       .navbar-item:first-child {
         margin-left: auto;
       }
+
       .navbar-item:last-child {
         margin-right: auto;
       }

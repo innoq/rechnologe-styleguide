@@ -5,9 +5,11 @@
 .main-layout {
   padding: spacings.$spacer-base spacings.$spacer-sm;
   background-color: colors.$brand-gray-10;
+
   .button-group {
     margin-top: spacings.$spacer-sm;
   }
+
   .button-group + * {
     margin-top: spacings.$spacer-md;
   }
@@ -23,13 +25,16 @@
     // Default if no row-template is set is `auto` which might have some
     // unexpected behavior, but it will still be placed.
     grid-template-rows: min-content min-content 1fr;
+
     & > * {
       grid-column: span 2;
       align-self: start;
     }
+
     .page-category {
       grid-area: category;
     }
+
     .button-group {
       grid-area: buttons;
       margin: 0;
@@ -40,6 +45,7 @@
         margin-top: spacings.$spacer-lg;
       }
     }
+
     h1 {
       grid-area: heading;
     }

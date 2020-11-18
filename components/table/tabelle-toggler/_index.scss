@@ -9,6 +9,7 @@ button[is="tabelle-toggler"] {
   .collapse {
     display: none;
   }
+
   &[aria-expanded="true"] {
     .collapse {
       display: block;
@@ -19,6 +20,7 @@ button[is="tabelle-toggler"] {
       );
     }
   }
+
   &[aria-expanded="false"] {
     .expand {
       display: block;

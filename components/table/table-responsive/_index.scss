@@ -6,22 +6,26 @@
 @mixin responsive-behavior($maxWidth, $nrCols) {
   @media (max-width: #{$maxWidth}) {
     --nr-cols: #{$nrCols};
+
     thead {
       th:nth-child(#{$nrCols + 1}) ~ th {
         display: none;
       }
     }
+
     tbody {
       td:nth-child(#{$nrCols + 1}) ~ td {
         display: grid;
         grid-column: 2 / calc(var(--nr-cols) + 2);
         grid-template-columns: subgrid;
         padding: spacings.$spacer-md 0 spacings.$spacer-xxs 0;
+
         &::before {
           content: attr(data-column);
           display: block;
         }
       }
+
       td:nth-child(#{$nrCols + 2}) ~ td {
         padding: spacings.$spacer-xxs 0;
       }
@@ -43,18 +47,22 @@ implement this way, because otherwise we would also have to reset all the old
   .table-toggler-cell {
     display: none;
   }
+
   .table-toggler-cell + td {
     border-left: 1px solid var(--border-color-td);
   }
+
   td::before {
     @include table.table-header-style();
   }
 
   @media (max-width: breakpoints.$desktop) {
     --border-color-td: transparent;
+
     .hide {
       display: none !important;
     }
+
     .table-toggler-cell {
       display: block;
     }
@@ -89,6 +97,7 @@ implement this way, because otherwise we would also have to reset all the old
       }
     }
   }
+
   @include responsive-behavior($maxWidth: breakpoints.$desktop, $nrCols: 4);
   @include responsive-behavior(
     $maxWidth: breakpoints.$tablet-landscape,
