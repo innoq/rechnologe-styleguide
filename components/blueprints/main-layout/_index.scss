@@ -1,6 +1,6 @@
-@use "../../assets/stylesheets/spacers" as spacings;
+@use "../../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../assets/stylesheets/breakpoints" as breakpoints;
+@use "../../../assets/stylesheets/breakpoints" as breakpoints;
 
 .main-layout {
   padding: spacings.$spacer-base spacings.$spacer-sm;

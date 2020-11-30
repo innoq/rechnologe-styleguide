@@ -3,38 +3,78 @@ description: Show the progress that a user has made.
 
 This is a component shows the progress that the user has made.
 It takes the current `value` as well as the `max` number of steps that the user has made.
-Other Content is shown underneath the ProgressBar.
-
-```html
-<label class="progress-bar undefined">
-  <progress value="2" max="3"></progress>
-  Progress
-</label>
-```
-
-Optionally, if you do not pass any values into the ProgressBar, a label with the values that you specified will be generated.
-
-```html
-<label class="progress-bar undefined">
-  <progress value="2" max="3"></progress>
-  2 / 3
-</label>
-```
+The label is inserted beneath the progress bar.
 
 ## Green Progress Bars
 
-There are also progress bars in a green variant.
-
 ```html
 <label class="progress-bar green">
-  <progress value="1" max="5"></progress>
-  Progress
+    <progress value="1" max="5"></progress>
+    1 / 5
 </label>
 ```
 
+## Red Progress Bars
+
 ```html
-<label class="progress-bar green">
-  <progress value="1" max="5"></progress>
-  1 / 5
+<label class="progress-bar red">
+    <progress value="1" max="5"></progress>
+    1 / 5
 </label>
+```
+
+## Yellow Progress Bars
+
+```html
+<label class="progress-bar yellow">
+    <progress value="1" max="5"></progress>
+    1 / 5
+</label>
+```
+
+## Progress Bar combined with avatars
+
+This component is used when each step of the progress is made by a single person.
+
+```html
+<div class="progress-bar-with-avatars">
+    <label class="progress-bar green">
+        <progress value="1" max="3"></progress>
+        1 / 5
+    </label>
+    <ul class="progress-bar-avatars">
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+        </li>
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301"/></a>
+        </li>
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302"/></a>
+        </li>
+    </ul>
+</div>
+```
+
+When you have more people than you have space for, you can use the more placeholder.
+
+```html
+<div class="progress-bar-with-avatars">
+    <label class="progress-bar green">
+        <progress value="1" max="3"></progress>
+        1 / 5
+    </label>
+    <ul class="progress-bar-avatars">
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+        </li>
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301"/></a>
+        </li>
+        <li>
+            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302"/></a>
+        </li>
+    </ul>
+    <a href="#" class="progress-bar-more-avatars">and five more</a>
+</div>
 ```

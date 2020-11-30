@@ -5,6 +5,7 @@
   color: colors.$brand-blue-50;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
 
   progress {
     appearance: none;
@@ -20,12 +21,10 @@
 
   ::-webkit-progress-value {
     border-radius: 1rem;
-    background-color: colors.$brand-red;
   }
 
   ::-moz-progress-bar {
     border-radius: 1rem;
-    background-color: colors.$brand-red;
   }
 
   // I'd prefer to have a modifier with some meaning here, but I'm not sure
@@ -39,4 +38,44 @@
       background-color: colors.$brand-green;
     }
   }
+
+  &.yellow {
+    ::-webkit-progress-value {
+      background-color: colors.$brand-yellow;
+    }
+
+    ::-moz-progress-bar {
+      background-color: colors.$brand-yellow;
+    }
+  }
+
+  &.red {
+    ::-webkit-progress-value {
+      background-color: colors.$brand-red;
+    }
+
+    ::-moz-progress-bar {
+      background-color: colors.$brand-red;
+    }
+  }
+}
+
+.progress-bar-with-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar-avatars {
+  list-style: none;
+  margin: 0 0 0 spacings.$spacer-sm;
+  padding: 0;
+  display: flex;
+
+  li {
+    margin-right: spacings.$spacer-xxs;
+  }
+}
+
+.progress-bar-more-avatars {
+  color: colors.$brand-blue-50;
 }

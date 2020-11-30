@@ -35,16 +35,22 @@ module.exports = {
             tabelle: "./components/table/tabelle/README.md",
             responsive: "./components/table/table-responsive/README.md"
           }
-        },
-        main_layout: "./components/main-layout/README.md"
+        }
       }
     },
-    pages: {
-      file: "./components/PAGES.md",
+    blueprints: {
+      file: "./components/BLUEPRINTS.md",
       children: {
-        startpage_backoffice: "./components/pages/startpage-backoffice.md",
-        invoices_overview: "./components/pages/invoices-overview.md",
-        invoices_detail: "./components/pages/invoices-detail.md"
+        main_layout: "./components/blueprints/main-layout/README.md",
+        invoice_detail_layout: "./components/blueprints/invoice-detail-layout/README.md"
+      }
+    },
+    views: {
+      file: "./components/VIEWS.md",
+      children: {
+        startpage_backoffice: "./components/views/startpage-backoffice.md",
+        invoices_overview: "./components/views/invoices-overview.md",
+        invoices_detail: "./components/views/invoices-detail.md"
       }
     }
   },

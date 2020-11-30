@@ -16,7 +16,6 @@ Application specific code
 @use "../../components/button-group";
 @use "../../components/flash";
 @use "../../components/icon";
-@use "../../components/main-layout";
 @use "../../components/navbar";
 @use "../../components/page-category";
 @use "../../components/progress-bar";
@@ -26,6 +25,9 @@ Application specific code
 @use "../../components/table/table";
 @use "../../components/table/table-responsive";
 @use "../../components/text";
+
+@use "../../components/blueprints/main-layout";
+@use "../../components/blueprints/invoice-detail-layout";
 
 :root {
   --background-color: colors.$brand-gray-10;
