@@ -3,7 +3,7 @@ description: Details of one invoice
 
 Putting all of the pieces together for the Invoices Detail view.
 
-```html
+```html height=1400
 <div class="navbar-layout">
     <nav class="navbar">
         <a class="navbar-item brand" href="#">
