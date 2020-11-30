@@ -9,10 +9,7 @@ class TabelleToggler extends HTMLButtonElement {
       ev.preventDefault();
       this.toggle();
     });
-    window.addEventListener(
-      "resize",
-      debounce(300, this.initialExpand.bind(this))
-    );
+    window.addEventListener("resize", debounce(300, this.initialExpand.bind(this)));
   }
 
   initialExpand() {
