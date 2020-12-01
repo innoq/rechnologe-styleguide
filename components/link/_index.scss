@@ -1,0 +1,6 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.add-link {
+  color: colors.$brand-red;
+  text-decoration: none;
+}

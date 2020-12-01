@@ -10,19 +10,27 @@ module.exports = {
     atoms: {
       file: "./components/ATOMS.md",
       children: {
-        text: "./components/text/README.md",
         amount: "./components/amount/README.md",
+        avatar: "./components/avatar/README.md",
+        link: "./components/link/README.md",
+        definition_list: "./components/lists/definition-list/README.md",
         button: "./components/button/README.md",
         flash: "./components/flash/README.md",
         icon: "./components/icon/README.md",
         page_category: "./components/page-category/README.md",
-        progress_bar: "./components/progress-bar/README.md"
+        progress_bar: "./components/progress-bar/README.md",
+        status_indicator: "./components/status-indicator/README.md",
+        text: "./components/text/README.md"
       }
     },
     molecules: {
       file: "./components/MOLECULES.md",
       children: {
-        button_group: "./components/button-group/README.md"
+        button_group: "./components/button-group/README.md",
+        header_with_actions: "./components/header-with-actions/README.md",
+        pagination: "./components/pagination/README.md",
+        status_bar: "./components/status-bar/README.md",
+        tabs_nav: "./components/tabs-nav/README.md"
       }
     },
     organisms: {
@@ -33,7 +41,8 @@ module.exports = {
           file: "./components/table/table/README.md",
           children: {
             tabelle: "./components/table/tabelle/README.md",
-            responsive: "./components/table/table-responsive/README.md"
+            responsive: "./components/table/table-responsive/README.md",
+            totals: "./components/table/table-totals/README.md"
           }
         }
       }

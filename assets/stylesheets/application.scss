@@ -11,19 +11,28 @@ INNOQ Styleguide
 /*
 Application specific code
 */
+@use "../../components/avatar";
 @use "../../components/amount";
 @use "../../components/button";
 @use "../../components/button-group";
 @use "../../components/flash";
+@use "../../components/header-with-actions";
 @use "../../components/icon";
+@use "../../components/link";
+@use "../../components/lists/definition-list";
 @use "../../components/navbar";
 @use "../../components/page-category";
+@use "../../components/pagination";
 @use "../../components/progress-bar";
+@use "../../components/status-bar";
+@use "../../components/status-indicator";
 @use "../../components/table/squishable";
 @use "../../components/table/tabelle";
 @use "../../components/table/tabelle-toggler";
 @use "../../components/table/table";
 @use "../../components/table/table-responsive";
+@use "../../components/table/table-totals";
+@use "../../components/tabs-nav";
 @use "../../components/text";
 
 @use "../../components/blueprints/main-layout";

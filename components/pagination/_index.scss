@@ -1,0 +1,17 @@
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: colors.$brand-red;
+  }
+}
+
+.pagination-wrapper {
+  & > * {
+    margin-left: spacings.$spacer-base;
+  }
+}

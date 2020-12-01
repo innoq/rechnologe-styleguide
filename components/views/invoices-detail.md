@@ -46,10 +46,7 @@ Putting all of the pieces together for the Invoices Detail view.
                 <h1>Rechnungsentwurf</h1>
                 <div class="header-with-actions-wrapper">
                     <a class="add-link" href="#">Anhang hochladen</a>
-                    <div class="button-group">
-                        <button class="button tertiary" type="submit">Alle ermahnen</button>
-                        <button class="button primary" type="submit">Neue Rechnung</button>
-                    </div>
+                    <button class="button tertiary" type="submit">Mehr</button>
                 </div>
             </header>
 

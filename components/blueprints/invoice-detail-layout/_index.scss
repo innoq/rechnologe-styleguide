@@ -1,33 +1,36 @@
+@use "../../../assets/stylesheets/breakpoints" as breakpoints;
 @use "../../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../../assets/stylesheets/breakpoints" as breakpoints;
 
 .invoice-detail-layout {
+  display: flex;
+  flex-wrap: wrap;
+
+  .container-main {
+    & > * {
+      margin-bottom: spacings.$spacer-md;
+    }
+  }
+  .container-sidebar {
+    background-color: colors.$brand-gray-10;
+  }
+
   @include breakpoints.for-tablet-portrait-up {
     display: grid;
     grid-template-areas: "main sidebar";
     grid-template-columns: 3fr 1fr;
 
     .container-main {
-      grid-area: main;
       padding: spacings.$spacer-base spacings.$spacer-lg;
+      grid-area: main;
       box-shadow: 3px 0 3px 0 rgba(colors.$brand-blue, 0.25);
       z-index: 2;
-
-      & > * {
-        margin-bottom: spacings.$spacer-md;
-      }
     }
 
     .container-sidebar {
-      grid-area: sidebar;
       padding: spacings.$spacer-base spacings.$spacer-lg;
-      background-color: colors.$brand-gray-10;
+      grid-area: sidebar;
       z-index: 1;
-    }
-
-    .header-with-actions-wrapper {
-      margin-bottom: spacings.$spacer-base;
     }
 
     .invoice-container {
@@ -35,154 +38,6 @@
       grid-template-areas: "header body";
       grid-template-columns: 1fr 3fr;
       gap: spacings.$spacer-xl;
-    }
-  }
-}
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-
-  a {
-    color: colors.$brand-red;
-  }
-}
-
-.pagination-wrapper {
-  & > * {
-    margin-left: spacings.$spacer-base;
-  }
-}
-
-.header-with-actions {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-with-actions-wrapper {
-  display: flex;
-  align-items: center;
-
-  & > * {
-    margin-left: spacings.$spacer-base;
-  }
-}
-
-.add-link {
-  color: colors.$brand-red;
-  text-decoration: none;
-}
-
-.status-bar {
-  display: flex;
-  align-items: center;
-
-  & > * {
-    margin-right: spacings.$spacer-lg;
-  }
-}
-
-.avatar-small {
-  img {
-    width: 30px;
-    height: auto;
-    border-radius: 100%;
-  }
-}
-
-.invoice-meta {
-  dt {
-    text-transform: uppercase;
-    color: colors.$brand-blue-25;
-    font-size: 10px; // TODO: Generalize
-  }
-
-  dd {
-    color: colors.$brand-blue;
-    margin-left: 0;
-    font-size: 12px; // TODO: Generalize
-    margin-bottom: spacings.$spacer-base;
-  }
-}
-
-.status-indicator {
-  display: inline-block;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-
-  &.is-incomplete {
-    background-color: colors.$brand-red;
-  }
-
-  &.is-complete {
-    background-color: colors.$brand-green-75;
-  }
-}
-
-.table-totals {
-  border-bottom: 2px solid colors.$brand-blue;
-  width: 100%;
-  border-collapse: collapse;
-
-  th,
-  td {
-    padding: spacings.$spacer-xxs spacings.$spacer-xs;
-  }
-
-  th {
-    text-align: left;
-  }
-
-  td {
-    text-align: right;
-  }
-
-  tbody {
-    tr {
-      border-bottom: 1px solid colors.$brand-blue-25;
-    }
-
-    th {
-      color: colors.$brand-blue-25;
-    }
-  }
-
-  tfoot {
-    th {
-      color: colors.$brand-blue;
-    }
-
-    td {
-      font-weight: bold;
-    }
-  }
-}
-
-.tabs-nav {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  li {
-    background-color: colors.$brand-red-25;
-    color: colors.$brand-white;
-    padding: spacings.$spacer-xxs spacings.$spacer-md;
-
-    &.active {
-      background-color: colors.$brand-red;
-    }
-
-    &:first-child {
-      border-radius: 20px 0 0 20px;
-    }
-
-    &:last-child {
-      border-radius: 0 20px 20px 0;
     }
   }
 }

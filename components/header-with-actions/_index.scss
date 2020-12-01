@@ -1,0 +1,18 @@
+@use "../../assets/stylesheets/spacers" as spacings;
+
+.header-with-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: spacings.$spacer-base;
+}
+
+.header-with-actions-wrapper {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-left: spacings.$spacer-base;
+  }
+}

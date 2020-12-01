@@ -1,0 +1,29 @@
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.tabs-nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  li {
+    background-color: colors.$brand-red-25;
+    color: colors.$brand-white;
+    padding: spacings.$spacer-xxs spacings.$spacer-md;
+
+    &.active {
+      background-color: colors.$brand-red;
+    }
+
+    &:first-child {
+      border-radius: 20px 0 0 20px;
+    }
+
+    &:last-child {
+      border-radius: 0 20px 20px 0;
+    }
+  }
+}

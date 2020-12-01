@@ -1,0 +1,10 @@
+@use "../../assets/stylesheets/spacers" as spacings;
+
+.status-bar {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-right: spacings.$spacer-lg;
+  }
+}

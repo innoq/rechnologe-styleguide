@@ -1,42 +1,62 @@
 title: Invoice Detail Layout
-description: Provides a layout component for the main content area
-
-This component provides layout styling for the `main` element which provides one basic page layout.
-
-To create different layouts of this main content area in the future it is best to
-create a different CSS class.
-
-In this layout, we expect the following elements to be included as children:
-
-* `PageCategory` component with the page category
-* An `h1` element containing the page title
-* A `ButtonGroup` component containing any actions relevant for the page
-
-Following these elements, you can treat this component like a generic container:
-Any other elements will be placed in a single column in the content area.
+description: Provides a two column layout component for the main content area
 
 ## Mobile Viewport
 
-```html width=350
-<div style="background-color: var(--background-color);">
-  <main class="main-layout">
-    <div class="page-category">Rechnungserstellung</div>
-    <h1>Keine freizugebenden Leistungen</h1>
-    <div class="button-group"><button class="button tertiary" type="submit">Faule erinnern</button><button class="button primary" type="submit">Neue Rechnung</button></div>
-    <div style="background-color: var(--brand-blue); color: white; min-height: 10rem;">Main content comes here!</div>
-  </main>
-</div>
+```html width=350 height = 500
+<main class="invoice-detail-layout">
+    <div class="container-main">
+        <nav class="pagination">
+            <a href="#">Zurück</a>
+            <div class="pagination-wrapper">
+                <a href="#">Vorherige</a>
+                <a href="#">Nächste</a>
+            </div>
+        </nav>
+
+        <header class="header-with-actions">
+            <h1>Rechnungsentwurf</h1>
+            <div class="header-with-actions-wrapper">
+                <a class="add-link" href="#">Anhang hochladen</a>
+                <button class="button tertiary" type="submit">Alle ermahnen</button>
+            </div>
+        </header>
+
+        Main Content goes here
+    </div>
+
+    <div class="container-sidebar">
+        Sidebar Content goes here
+    </div>
+</main>
 ```
 
 ## Larger Viewports
 
-```html
-<div style="background-color: var(--background-color);">
-  <main class="main-layout">
-    <div class="page-category">Rechnungserstellung</div>
-    <h1>Keine freizugebenden Leistungen</h1>
-    <div class="button-group"><button class="button tertiary" type="submit">Faule erinnern</button><button class="button primary" type="submit">Neue Rechnung</button></div>
-    <div style="background-color: var(--brand-blue); color: white; min-height: 10rem;">Main content comes here!</div>
-  </main>
-</div>
+```html height=500
+<main class="invoice-detail-layout">
+    <div class="container-main">
+        <nav class="pagination">
+            <a href="#">Zurück</a>
+            <div class="pagination-wrapper">
+                <a href="#">Vorherige</a>
+                <a href="#">Nächste</a>
+            </div>
+        </nav>
+
+        <header class="header-with-actions">
+            <h1>Rechnungsentwurf</h1>
+            <div class="header-with-actions-wrapper">
+                <a class="add-link" href="#">Anhang hochladen</a>
+                <button class="button tertiary" type="submit">Alle ermahnen</button>
+            </div>
+        </header>
+
+        Main Content goes here
+    </div>
+
+    <div class="container-sidebar">
+        Sidebar Content goes here
+    </div>
+</main>
 ```

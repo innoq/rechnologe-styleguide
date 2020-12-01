@@ -1,0 +1,16 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+.status-indicator {
+  display: inline-block;
+  border-radius: 100%;
+  width: 20px; //magic number
+  height: 20px; //magic number
+
+  &.is-incomplete {
+    background-color: colors.$brand-red;
+  }
+
+  &.is-complete {
+    background-color: colors.$brand-green-75;
+  }
+}
