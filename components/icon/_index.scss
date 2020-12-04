@@ -2,24 +2,56 @@
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 
 .icon {
+  &.icon-add {
+    @include helpers.icon-before("add.svg", inherit, 1.5rem);
+  }
+
   &.icon-alarm {
     @include helpers.icon-before("alarm.svg", inherit, 1.5rem);
+  }
+
+  &.icon-angle-down {
+    @include helpers.icon-before("angle-down-solid.svg", inherit, 1.5rem);
+  }
+
+  &.icon-angle-right {
+    @include helpers.icon-before("angle-right-solid.svg", inherit, 1.5rem);
+  }
+
+  &.icon-arrow-left {
+    @include helpers.icon-before("angle-right-solid.svg", inherit, 1.5rem);
   }
 
   &.icon-bolt {
     @include helpers.icon-before("bolt.svg", inherit, 1.5rem);
   }
 
+  &.icon-caret-down {
+    @include helpers.icon-before("caret-down-solid.svg", inherit, 1.5rem);
+  }
+
+  &.icon-caret-up {
+    @include helpers.icon-before("caret-up-solid.svg", inherit, 1.5rem);
+  }
+
   &.icon-crown {
     @include helpers.icon-before("crown.svg", inherit, 1.5rem);
   }
 
-  &.icon-dots {
-    @include helpers.icon-before("dots.svg", inherit, 1.5rem);
+  &.icon-dots-horizontal {
+    @include helpers.icon-before("dots-horizontal.svg", inherit, 1.5rem);
+  }
+
+  &.icon-dots-vertical {
+    @include helpers.icon-before("dots-vertical.svg", inherit, 1.5rem);
   }
 
   &.icon-download {
     @include helpers.icon-before("download.svg", inherit, 1.5rem);
+  }
+
+  &.icon-eye {
+    @include helpers.icon-before("eye.svg", inherit, 1.5rem);
   }
 
   &.icon-list-bulleted {
@@ -42,26 +74,6 @@
     @include helpers.icon-before("snooze.svg", inherit, 1.5rem);
   }
 
-  &.icon-upload {
-    @include helpers.icon-before("upload.svg", inherit, 1.5rem);
-  }
-
-  &.icon-warning {
-    @include helpers.icon-before("warning.svg", inherit, 1.5rem);
-  }
-
-  &.icon-eye {
-    @include helpers.icon-before("eye.svg", inherit, 1.5rem);
-  }
-
-  &.icon-whip {
-    @include helpers.icon-before("whip.svg", inherit, 1.5rem);
-  }
-
-  &.icon-thumbsup {
-    @include helpers.icon-before("thumbsup.svg", inherit, 1.5rem);
-  }
-
   &.icon-remind {
     @include helpers.icon-before("remind.svg", inherit, 1.5rem);
   }
@@ -70,7 +82,19 @@
     @include helpers.icon-before("reminded.svg", inherit, 1.5rem);
   }
 
-  &.icon-add {
-    @include helpers.icon-before("add.svg", inherit, 1.5rem);
+  &.icon-upload {
+    @include helpers.icon-before("upload.svg", inherit, 1.5rem);
+  }
+
+  &.icon-thumbsup {
+    @include helpers.icon-before("thumbsup.svg", inherit, 1.5rem);
+  }
+
+  &.icon-warning {
+    @include helpers.icon-before("warning.svg", inherit, 1.5rem);
+  }
+
+  &.icon-whip {
+    @include helpers.icon-before("whip.svg", inherit, 1.5rem);
   }
 }
