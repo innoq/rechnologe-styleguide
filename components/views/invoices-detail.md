@@ -47,7 +47,7 @@ Putting all of the pieces together for the Invoices Detail view.
                 <div class="header-with-actions-wrapper">
                     <a class="add-link" href="#"><span class="icon icon-add" role="presentation"></span>Anhang hochladen</a>
                     <nav>
-                        <div class="dropdown-wrapper">
+                        <div class="dropdown-wrapper dropdown-button">
                             <a href="#" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
                             <ul aria-label="submenu">
                                 <li><a href="#">Aktion Aktion1</a></li>
@@ -201,7 +201,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td><span class="amount">18.750,00 €</span></td>
 
-                                <td class="action">Action</td>
+                                <td class="action">
+                                    <nav>
+                                        <div class="dropdown-wrapper dropdown-icon">
+                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                            <ul aria-label="submenu">
+                                                <li><a href="#">Aktion 1</a></li>
+                                                <li><a href="#">Aktion 2</a></li>
+                                                <li><a href="#">Aktion 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </td>
                             </tr>
 
                             <tr>
@@ -217,7 +228,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td><span class="amount">18.750,00 €</span></td>
 
-                                <td class="action">Action</td>
+                                <td class="action">
+                                    <nav>
+                                        <div class="dropdown-wrapper dropdown-icon">
+                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                            <ul aria-label="submenu">
+                                                <li><a href="#">Aktion 1</a></li>
+                                                <li><a href="#">Aktion 2</a></li>
+                                                <li><a href="#">Aktion 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </td>
                             </tr>
 
                             <tr>
@@ -233,7 +255,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td><span class="amount">18.750,00 €</span></td>
 
-                                <td class="action">Action</td>
+                                <td class="action">
+                                    <nav>
+                                        <div class="dropdown-wrapper dropdown-icon">
+                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                            <ul aria-label="submenu">
+                                                <li><a href="#">Aktion 1</a></li>
+                                                <li><a href="#">Aktion 2</a></li>
+                                                <li><a href="#">Aktion 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </td>
                             </tr>
 
                             <tr>
@@ -249,7 +282,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td><span class="amount">18.750,00 €</span></td>
 
-                                <td class="action">Action</td>
+                                <td class="action">
+                                    <nav>
+                                        <div class="dropdown-wrapper dropdown-icon">
+                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                            <ul aria-label="submenu">
+                                                <li><a href="#">Aktion 1</a></li>
+                                                <li><a href="#">Aktion 2</a></li>
+                                                <li><a href="#">Aktion 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -313,7 +357,7 @@ Putting all of the pieces together for the Invoices Detail view.
                         <th scope="col" role="columnheader" aria-label="Gesamtpreis">
                             <div class="tabelle-header">
                                 <span class="header" id="auftragsnr_group" aria-hidden="true">
-                                    <span class="squishable" aria-label="Gesamtpreis    " data-short="Gesamtpr." style="--squish-at: 11ch;"></span>
+                                    <span class="squishable" aria-label="Gesamtpreis" data-short="Gesamtpr." style="--squish-at: 11ch;"></span>
                                 </span>
                             </div>
                         </th>
@@ -337,7 +381,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                         <td><span class="amount">18.750,00 €</span></td>
 
-                        <td class="action">Action</td>
+                        <td class="action">
+                            <nav>
+                                <div class="dropdown-wrapper dropdown-icon">
+                                    <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                    <ul aria-label="submenu">
+                                        <li><a href="#">Aktion 1 Aktion Aktion</a></li>
+                                        <li><a href="#">Aktion 2</a></li>
+                                        <li><a href="#">Aktion 3</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </td>
                     </tr>
                     <tr>
                         <td>Security concepts for reliable Client Server communication in NWOT and AuthProxy including Lorem Ipsum</td>
@@ -348,7 +403,18 @@ Putting all of the pieces together for the Invoices Detail view.
 
                         <td><span class="amount">18.750,00 €</span></td>
 
-                        <td class="action">Action</td>
+                        <td class="action">
+                            <nav>
+                                <div class="dropdown-wrapper dropdown-icon">
+                                    <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                    <ul aria-label="submenu">
+                                        <li><a href="#">Aktion 1</a></li>
+                                        <li><a href="#">Aktion 2</a></li>
+                                        <li><a href="#">Aktion 3</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </td>
                     </tr>
                 </tbody>
             </table>
