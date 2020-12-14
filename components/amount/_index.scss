@@ -2,4 +2,6 @@
 
 .amount {
   font-family: typography.$font-family-monospace;
+  font-size: typography.$font-size-sm;
+  white-space: nowrap;
 }
