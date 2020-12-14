@@ -66,7 +66,7 @@ _dots horizontal_
 _dots vertical_
 
 ```html
-<span class="icon icon-dots=vertical" role="presentation"></span>
+<span class="icon icon-dots-vertical" role="presentation"></span>
 ```
 
 _download_

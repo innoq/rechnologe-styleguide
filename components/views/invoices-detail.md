@@ -35,7 +35,7 @@ Putting all of the pieces together for the Invoices Detail view.
     <main class="invoice-detail-layout">
         <div class="container-main">
             <nav class="pagination">
-                <a href="#">Zurück</a>
+                <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
                 <div class="pagination-wrapper">
                     <a href="#">Vorherige</a>
                     <a href="#">Nächste</a>
@@ -45,8 +45,17 @@ Putting all of the pieces together for the Invoices Detail view.
             <header class="header-with-actions">
                 <h1>Rechnungsentwurf</h1>
                 <div class="header-with-actions-wrapper">
-                    <a class="add-link" href="#">Anhang hochladen</a>
-                    <button class="button tertiary" type="submit">Mehr</button>
+                    <a class="add-link" href="#"><span class="icon icon-add" role="presentation"></span>Anhang hochladen</a>
+                    <nav>
+                        <div class="dropdown-wrapper">
+                            <a href="#" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
+                            <ul aria-label="submenu">
+                                <li><a href="#">Aktion Aktion1</a></li>
+                                <li><a href="#">Aktion 2</a></li>
+                                <li><a href="#">Aktion 3</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </header>
 

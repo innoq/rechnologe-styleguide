@@ -19,7 +19,7 @@
   }
 
   &.icon-arrow-left {
-    @include helpers.icon-before("angle-right-solid.svg", inherit, 1.5rem);
+    @include helpers.icon-before("arrow-left.svg", inherit, 1.5rem);
   }
 
   &.icon-bolt {

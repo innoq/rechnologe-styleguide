@@ -1,0 +1,52 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../assets/stylesheets/helpers" as helpers;
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "../../assets/stylesheets/typography" as typography;
+
+.dropdown-wrapper {
+  border: 3px solid colors.$brand-red;
+  padding: spacings.$spacer-xxs spacings.$spacer-sm;
+  transition-duration: 0.5s;
+  position: relative;
+
+  a {
+    display: flex;
+    text-decoration: none;
+    color: colors.$brand-red;
+  }
+
+  ul {
+    background-color: colors.$brand-gray-10;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: spacings.$spacer-xs;
+    left: 0;
+  }
+
+  li {
+    padding: spacings.$spacer-xxs spacings.$spacer-sm;
+
+    a {
+      color: colors.$brand-blue;
+    }
+
+    &:hover {
+      background-color: colors.$brand-blue-25;
+    }
+  }
+
+  &:hover ul,
+  &:focus-within ul {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  li:focus-within a {
+    outline: none;
+  }
+}

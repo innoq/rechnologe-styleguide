@@ -12,8 +12,6 @@ this is a good time to use a `Button` style on the link itself.
 ## Button
 
 Your base button is here.
-This Macro produces a semantic `button` element.
-By default, this Button is of type submit, but this value can be passed into the M
 
 ### Buttons of type "submit"
 
@@ -77,5 +75,4 @@ This accepts an `href` as a parameter.
 
 ```html
 <a class="button tertiary" href="#">Go somewhere else!</a>
-
 ```
