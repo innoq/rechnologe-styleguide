@@ -1,9 +1,11 @@
-@use "../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "../../assets/stylesheets/typography" as typography;
 
 .pagination {
   display: flex;
   justify-content: space-between;
+  font-size: typography.$font-size-md;
 
   a {
     color: colors.$brand-red;

@@ -2,25 +2,52 @@
 @use "../../assets/stylesheets/helpers" as helpers;
 @use "../../assets/stylesheets/spacers" as spacings;
 @use "../../assets/stylesheets/typography" as typography;
+@use "../../assets/stylesheets/animations" as animations;
+
+.dropdown-button {
+  @extend %heading-font-bold;
+
+  border: 2px solid colors.$brand-red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: spacings.$spacer-xxs spacings.$spacer-sm;
+  text-decoration: none;
+  color: colors.$brand-red;
+  font-size: typography.$font-size-sm;
+  line-height: 1;
+  width: 5rem; //magic number
+
+  .icon-caret-down {
+    @include helpers.icon-before("caret-down-solid.svg", colors.$brand-red, 1rem);
+
+    margin-left: spacings.$spacer-xxs;
+  }
+}
+
+.dropdown-icon {
+  ul {
+    left: -50px; //magic number
+  }
+}
 
 .dropdown-wrapper {
-  transition-duration: 0.5s;
   position: relative;
 
   ul {
+    font-size: typography.$font-size-sm;
     background-color: colors.$brand-gray-10;
+    transition: animations.$standard-transition;
     list-style: none;
     margin: 0;
     padding-left: 0;
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    transition: all 0.5s ease;
-    margin-top: spacings.$spacer-xs;
+    top: 2.15rem; //magic number
     left: 0;
     z-index: 2;
-    width: 7rem; //magic number
-    font-size: typography.$font-size-sm;
+    width: 5rem; //magic number
   }
 
   li {
@@ -44,22 +71,5 @@
 
   li:focus-within a {
     outline: none;
-  }
-}
-
-.dropdown-button {
-  border: 3px solid colors.$brand-red;
-  padding: spacings.$spacer-xxs spacings.$spacer-sm;
-
-  a {
-    display: flex;
-    text-decoration: none;
-    color: colors.$brand-red;
-  }
-}
-
-.dropdown-icon {
-  ul {
-    left: -50px; //magic number
   }
 }

@@ -13,6 +13,10 @@
   }
   .container-sidebar {
     background-color: colors.$brand-gray-10;
+
+    & > * {
+      margin-bottom: spacings.$spacer-md;
+    }
   }
 
   @include breakpoints.for-tablet-portrait-up {
@@ -38,6 +42,10 @@
       grid-template-areas: "header body";
       grid-template-columns: 1fr 3fr;
       gap: spacings.$spacer-xl;
+
+      h2 {
+        margin-bottom: spacings.$spacer-md;
+      }
     }
   }
 }

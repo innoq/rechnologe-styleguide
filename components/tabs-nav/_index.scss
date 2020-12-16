@@ -1,5 +1,7 @@
-@use "../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "../../assets/stylesheets/typography" as typography;
+@use "../../assets/stylesheets/animations" as animations;
 
 .tabs-nav {
   ul {
@@ -13,8 +15,15 @@
     background-color: colors.$brand-red-25;
     color: colors.$brand-white;
     padding: spacings.$spacer-xxs spacings.$spacer-md;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: typography.$font-size-sm;
+    white-space: nowrap;
+    transition: animations.$standard-transition;
 
-    &.active {
+    &.active,
+    &:hover,
+    &:focus {
       background-color: colors.$brand-red;
     }
 

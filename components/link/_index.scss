@@ -1,6 +1,7 @@
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 @use "../../assets/stylesheets/helpers" as helpers;
 @use "../../assets/stylesheets/spacers" as spacings;
+@use "../../assets/stylesheets/typography" as typography;
 
 .add-link {
   display: inline-flex;
@@ -8,9 +9,10 @@
   font-weight: bold;
   color: colors.$brand-red;
   text-decoration: none;
+  font-size: typography.$font-size-sm;
 
   .icon-add {
-    @include helpers.icon-before("add.svg", colors.$brand-blue-25, 2rem);
+    @include helpers.icon-before("add.svg", colors.$brand-blue-25, 1.5rem);
 
     margin-right: spacings.$spacer-xxs;
   }

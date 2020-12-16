@@ -1,15 +1,17 @@
-@use "../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../assets/stylesheets/spacers" as spacings;
+@use "../../assets/stylesheets/typography" as typography;
 
 .progress-bar {
   color: colors.$brand-blue-50;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+  font-size: typography.$font-size-xs;
 
   progress {
     appearance: none;
-    height: spacings.$spacer-xxs;
+    height: spacings.$spacer-xs;
     border-radius: 1rem;
     width: 100%;
   }
@@ -78,4 +80,5 @@
 
 .progress-bar-more-avatars {
   color: colors.$brand-blue-50;
+  font-size: typography.$font-size-xs;
 }

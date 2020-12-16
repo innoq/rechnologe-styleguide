@@ -47,8 +47,8 @@ Putting all of the pieces together for the Invoices Detail view.
                 <div class="header-with-actions-wrapper">
                     <a class="add-link" href="#"><span class="icon icon-add" role="presentation"></span>Anhang hochladen</a>
                     <nav>
-                        <div class="dropdown-wrapper dropdown-button">
-                            <a href="#" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
+                        <div class="dropdown-wrapper">
+                            <a href="#" class="dropdown-button" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
                             <ul aria-label="submenu">
                                 <li><a href="#">Aktion Aktion1</a></li>
                                 <li><a href="#">Aktion 2</a></li>
@@ -203,8 +203,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td class="action">
                                     <nav>
-                                        <div class="dropdown-wrapper dropdown-icon">
-                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                        <div class="dropdown-wrapper">
+                                            <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                             <ul aria-label="submenu">
                                                 <li><a href="#">Aktion 1</a></li>
                                                 <li><a href="#">Aktion 2</a></li>
@@ -230,8 +230,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td class="action">
                                     <nav>
-                                        <div class="dropdown-wrapper dropdown-icon">
-                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                        <div class="dropdown-wrapper">
+                                            <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                             <ul aria-label="submenu">
                                                 <li><a href="#">Aktion 1</a></li>
                                                 <li><a href="#">Aktion 2</a></li>
@@ -257,8 +257,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td class="action">
                                     <nav>
-                                        <div class="dropdown-wrapper dropdown-icon">
-                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                        <div class="dropdown-wrapper">
+                                            <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                             <ul aria-label="submenu">
                                                 <li><a href="#">Aktion 1</a></li>
                                                 <li><a href="#">Aktion 2</a></li>
@@ -284,8 +284,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                                 <td class="action">
                                     <nav>
-                                        <div class="dropdown-wrapper dropdown-icon">
-                                            <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                        <div class="dropdown-wrapper">
+                                            <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                             <ul aria-label="submenu">
                                                 <li><a href="#">Aktion 1</a></li>
                                                 <li><a href="#">Aktion 2</a></li>
@@ -383,8 +383,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                         <td class="action">
                             <nav>
-                                <div class="dropdown-wrapper dropdown-icon">
-                                    <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                <div class="dropdown-wrapper">
+                                    <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                     <ul aria-label="submenu">
                                         <li><a href="#">Aktion 1 Aktion Aktion</a></li>
                                         <li><a href="#">Aktion 2</a></li>
@@ -405,8 +405,8 @@ Putting all of the pieces together for the Invoices Detail view.
 
                         <td class="action">
                             <nav>
-                                <div class="dropdown-wrapper dropdown-icon">
-                                    <a href="#" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
+                                <div class="dropdown-wrapper">
+                                    <a href="#" class="dropdown-icon" aria-haspopup="true"><span class="icon icon-dots-vertical" role="presentation"></span></a>
                                     <ul aria-label="submenu">
                                         <li><a href="#">Aktion 1</a></li>
                                         <li><a href="#">Aktion 2</a></li>

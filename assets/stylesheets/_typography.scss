@@ -5,10 +5,12 @@ $font-family-sans-serif-heavy: FFMarkWebProHeavy, "Helvetica Neue", Helvetica, A
 $font-family-icons: FFMarkWebProHeavy, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace: HackRegular, "Monaco", "Courier New", monospace;
 
-$font-size-sm: 0.75rem;
-$font-size-md: 0.875rem;
-$font-size-base: 1rem;
-$font-size-lg: 1.25rem;
+$font-size-xs: 0.625rem; // 10px
+$font-size-sm: 0.75rem; // 12px
+$font-size-md: 0.875rem; // 14px
+$font-size-base: 1.125rem; // 18px
+$font-size-lg: 1.5rem; // 24px
+$font-size-xl: 2rem; // 32px
 
 //
 // Font-family helpers

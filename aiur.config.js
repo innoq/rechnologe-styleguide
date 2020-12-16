@@ -12,6 +12,7 @@ module.exports = {
       children: {
         amount: "./components/amount/README.md",
         avatar: "./components/avatar/README.md",
+        headings: "./components/headings/README.md",
         link: "./components/link/README.md",
         definition_list: "./components/lists/definition-list/README.md",
         button: "./components/button/README.md",
