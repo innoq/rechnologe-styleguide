@@ -29,6 +29,12 @@
   ul {
     left: -50px; //magic number
   }
+
+  .icon-dots-vertical {
+    @include helpers.icon-before("dots-vertical.svg", colors.$brand-blue-25, 2rem);
+
+    margin-left: spacings.$spacer-xxs;
+  }
 }
 
 .dropdown-wrapper {
