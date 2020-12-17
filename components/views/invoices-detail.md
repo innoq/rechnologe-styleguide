@@ -119,7 +119,7 @@ Putting all of the pieces together for the Invoices Detail view.
                         <dt>Referenztest für Rechnung</dt>
                         <dd>Bester Text ever</dd>
                         <dt>Angebots-Referenz</dt>
-                        <dd>INV/D19.02.1945/2020-01-02</dd>
+                        <dd>INV/D12.34.567/2020-01-02</dd>
                         <dt>Steuer-ID</dt>
                         <dd>...</dd>
                         <dt>Ust.-Satz</dt>
