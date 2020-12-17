@@ -102,10 +102,10 @@ Putting all of the pieces together for the Invoices Detail view.
                     <dl class="invoice-meta">
                         <dt>Kunde</dt>
                         <dd>
-                            GermanPersonnel e-search GmbH<br />
-                            Jürgen Posterz<br />
-                            Hauptstraße 8<br />
-                            82008 Unterhaching<br />
+                            Coole Firma GmbH<br />
+                            Heribert Innoq<br />
+                            Krischerstr. 100<br />
+                            40789 Monheim<br />
                             Deutschland
                         </dd>
                         <dt>Empfänger</dt>
