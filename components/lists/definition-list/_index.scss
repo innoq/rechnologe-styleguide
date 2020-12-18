@@ -1,17 +1,20 @@
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 @use "../../../assets/stylesheets/spacers" as spacings;
+@use "../../../assets/stylesheets/typography" as typography;
 
 .invoice-meta {
   dt {
     text-transform: uppercase;
     color: colors.$brand-blue-25;
-    font-size: 10px; // TODO: Generalize
+    font-size: typography.$font-size-xs;
+    line-height: typography.$paragraph-line-height;
   }
 
   dd {
     color: colors.$brand-blue;
     margin-left: 0;
-    font-size: 12px; // TODO: Generalize
     margin-bottom: spacings.$spacer-base;
+    font-size: typography.$font-size-sm;
+    line-height: typography.$paragraph-line-height;
   }
 }

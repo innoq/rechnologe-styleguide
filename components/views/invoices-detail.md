@@ -46,16 +46,19 @@ Putting all of the pieces together for the Invoices Detail view.
                 <h1>Rechnungsentwurf</h1>
                 <div class="header-with-actions-wrapper">
                     <a class="add-link" href="#"><span class="icon icon-add" role="presentation"></span>Anhang hochladen</a>
-                    <nav>
-                        <div class="dropdown-wrapper">
-                            <a href="#" class="dropdown-button" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
-                            <ul aria-label="submenu">
-                                <li><a href="#">Aktion Aktion1</a></li>
-                                <li><a href="#">Aktion 2</a></li>
-                                <li><a href="#">Aktion 3</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <div class="button-group">
+                        <nav>
+                            <div class="dropdown-wrapper">
+                                <a href="#" class="dropdown-button" aria-haspopup="true">Mehr<span class="icon icon-caret-down" role="presentation"></span></a>
+                                <ul aria-label="submenu">
+                                    <li><a href="#">Aktion Aktion1</a></li>
+                                    <li><a href="#">Aktion 2</a></li>
+                                    <li><a href="#">Aktion 3</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <button class="button primary" type="submit">Principal Freigabe erstellen</button>
+                    </div>
                 </div>
             </header>
 
@@ -115,7 +118,7 @@ Putting all of the pieces together for the Invoices Detail view.
                         <dt>Leistungszeitraum</dt>
                         <dd>Dezember 2020</dd>
                         <dt>Kostenstelle</dt>
-                        <dd>[AA001111] GermanPersonell AWS Cognito</dd>
+                        <dd>[AA001111] Kostenstelle xyz</dd>
                         <dt>Referenztest für Rechnung</dt>
                         <dd>Bester Text ever</dd>
                         <dt>Angebots-Referenz</dt>
@@ -134,7 +137,8 @@ Putting all of the pieces together for the Invoices Detail view.
                 </div>
                 <div class="invoice-body">
                     <h2>Text</h2>
-                    <p>Sehr geehrte Frau Ebstein, anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.</p>
+                    <p class="serif">Sehr geehrte Frau Ebstein,</p>
+                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.</p>
 
                     <h2>Leistungen</h2>
 
@@ -180,7 +184,7 @@ Putting all of the pieces together for the Invoices Detail view.
                                 <th scope="col" role="columnheader" aria-label="Aktion">
                                     <div class="tabelle-header">
                                         <span class="header" id="auftragsnr_group" aria-hidden="true">
-                                            <span class="squishable" aria-label="Aktion" data-short="Aktion" style="--squish-at: 11ch;"></span>
+                                            <span class="squishable" aria-label="Aktion" style="--squish-at: 11ch;"></span>
                                         </span>
                                     </div>
                                 </th>

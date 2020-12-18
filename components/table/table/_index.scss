@@ -8,7 +8,7 @@
   @extend %heading-font-bold;
   @extend %muted;
 
-  font-size: typography.$font-size-sm;
+  font-size: typography.$font-size-xs;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -21,27 +21,33 @@
 
   th {
     @include table-header-style();
+
+    color: colors.$brand-blue-25;
     text-align: left;
     align-self: end;
-    padding: spacings.$spacer-xxs spacings.$spacer-xs;
   }
 
   tbody {
-    background-color: white;
+    background-color: colors.$brand-white;
     color: colors.$brand-blue;
     vertical-align: top;
   }
 
   td {
-    padding: spacings.$spacer-md spacings.$spacer-xs;
+    padding: spacings.$spacer-sm spacings.$spacer-xs;
     border-top: 1px solid var(--border-color-td);
+    font-size: typography.$font-size-sm;
+    line-height: typography.$paragraph-line-height;
+    width: 100%;
 
     &:first-child {
       border-left: 1px solid var(--border-color-td);
     }
+
     &:last-child {
       border-right: 1px solid var(--border-color-td);
     }
+
     &.emphasized {
       @extend %heading-font-bold;
     }
@@ -52,6 +58,8 @@
 
     &.action {
       background-color: colors.$brand-gray-20;
+      width: auto;
+      vertical-align: middle;
     }
   }
 

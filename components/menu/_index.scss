@@ -31,9 +31,7 @@
   }
 
   .icon-dots-vertical {
-    @include helpers.icon-before("dots-vertical.svg", colors.$brand-blue-25, 2rem);
-
-    margin-left: spacings.$spacer-xxs;
+    @include helpers.icon-before("dots-vertical.svg", colors.$brand-blue-25, 1.5rem);
   }
 }
 
