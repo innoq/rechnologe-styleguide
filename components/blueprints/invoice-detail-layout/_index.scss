@@ -32,9 +32,16 @@
     }
 
     .container-sidebar {
-      padding: spacings.$spacer-base spacings.$spacer-lg;
       grid-area: sidebar;
+      display: flex;
+      flex-direction: column;
       z-index: 1;
+      padding: spacings.$spacer-base spacings.$spacer-lg;
+
+      .add-link {
+        margin-bottom: spacings.$spacer-xs;
+        align-self: flex-end;
+      }
     }
 
     .invoice-container {

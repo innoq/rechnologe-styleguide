@@ -337,7 +337,7 @@ Putting all of the pieces together for the Invoices Detail view.
             <p class="muted">Hier sind keine Leistungen vorhanden</p>
 
             <h2>Noch nicht abgerechnete Leistungen vergangener Monate</h2>
-            <a href="#" class="add-link">Alle freigegebenen auf die Rechnung</a>
+            <a class="add-link" href="#"><span class="icon icon-add" role="presentation"></span>Alle freigegebenen auf Rechnung</a>
 
             <table role="table" class="table table-responsive">
                 <thead role="rowgroup" hidden>
