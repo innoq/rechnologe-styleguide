@@ -52,6 +52,7 @@ module.exports = {
     blueprints: {
       file: "./components/BLUEPRINTS.md",
       children: {
+        navbar_layout: "./components/blueprints/navbar-layout/README.md",
         main_layout: "./components/blueprints/main-layout/README.md",
         invoice_detail_layout: "./components/blueprints/invoice-detail-layout/README.md"
       }
