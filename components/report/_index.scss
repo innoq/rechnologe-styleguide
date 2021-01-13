@@ -1,0 +1,58 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+@use "../../assets/stylesheets/typography" as typography;
+@use "../../assets/stylesheets/shadows" as shadows;
+@use "../../assets/stylesheets/spacers" as spacings;
+
+.report {
+  --summary-color: #{colors.$brand-yellow-75};
+  box-shadow: shadows.$box-shadow-down;
+  font-size: typography.$font-size-sm;
+  padding: spacings.$spacer-sm spacings.$spacer-sm spacings.$spacer-sm calc(#{spacings.$spacer-base} + #{spacings.$spacer-sm});
+  background-image: linear-gradient(to right, var(--summary-color) spacings.$spacer-base, 0%, colors.$brand-white 100%);
+  position: relative;
+
+  summary {
+    @extend %heading-font-bold;
+    font-size: typography.$font-size-sm;
+    list-style: none;
+  }
+
+  // hack for Chrome, because it can't do list-style on summary
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: spacings.$spacer-base;
+    content: "▶︎";
+    color: colors.$brand-blue;
+  }
+
+  &[open] {
+    summary {
+      margin-bottom: spacings.$spacer-xs;
+    }
+
+    summary::before {
+      content: "▼";
+    }
+  }
+
+  p {
+    font-size: typography.$font-size-sm;
+    color: colors.$brand-gray-50;
+  }
+
+  a {
+    color: colors.$brand-red;
+  }
+}
+
+.report-danger {
+  --summary-color: #{colors.$brand-red-75};
+}

@@ -216,17 +216,17 @@ Putting all of the pieces together for the Invoices view.
                     <tr role="row">
                         <td class="table-toggler-cell" role="cell">
                             <button is="tabelle-toggler" hidden aria-expanded="false">
-                                <span class="expand" title="Auftrag D19.10.2273 aufklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 aufklappen</span>
+                                <span class="expand" title="Auftrag D12.34.567 aufklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 aufklappen</span>
                                 </span>
-                                <span class="collapse" title="Auftrag D19.10.2273 zuklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 zuklappen</span>
+                                <span class="collapse" title="Auftrag D12.34.567 zuklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 zuklappen</span>
                                 </span>
                             </button>
                         </td>
 
                         <td role="cell" data-column="Auftragnr." class="emphasized">
-                            D19.10.2273
+                            D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
                             Quality-focused bandwidth-monitored parallelism
@@ -258,17 +258,17 @@ Putting all of the pieces together for the Invoices view.
                     <tr role="row">
                         <td class="table-toggler-cell" role="cell">
                             <button is="tabelle-toggler" hidden aria-expanded="false">
-                                <span class="expand" title="Auftrag D19.10.2273 aufklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 aufklappen</span>
+                                <span class="expand" title="Auftrag D12.34.567 aufklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 aufklappen</span>
                                 </span>
-                                <span class="collapse" title="Auftrag D19.10.2273 zuklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 zuklappen</span>
+                                <span class="collapse" title="Auftrag D12.34.567 zuklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 zuklappen</span>
                                 </span>
                             </button>
                         </td>
 
                         <td role="cell" data-column="Auftragnr." class="emphasized">
-                            D19.10.2273
+                            D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
                             Quality-focused bandwidth-monitored parallelism
@@ -301,17 +301,17 @@ Putting all of the pieces together for the Invoices view.
                     <tr role="row">
                         <td class="table-toggler-cell" role="cell">
                             <button is="tabelle-toggler" hidden aria-expanded="false">
-                                <span class="expand" title="Auftrag D19.10.2273 aufklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 aufklappen</span>
+                                <span class="expand" title="Auftrag D12.34.567 aufklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 aufklappen</span>
                                 </span>
-                                <span class="collapse" title="Auftrag D19.10.2273 zuklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 zuklappen</span>
+                                <span class="collapse" title="Auftrag D12.34.567 zuklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 zuklappen</span>
                                 </span>
                             </button>
                         </td>
 
                         <td role="cell" data-column="Auftragnr." class="emphasized">
-                            D19.10.2273
+                            D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
                             Quality-focused bandwidth-monitored parallelism
@@ -344,17 +344,17 @@ Putting all of the pieces together for the Invoices view.
                     <tr role="row">
                         <td class="table-toggler-cell" role="cell">
                             <button is="tabelle-toggler" hidden aria-expanded="false">
-                                <span class="expand" title="Auftrag D19.10.2273 aufklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 aufklappen</span>
+                                <span class="expand" title="Auftrag D12.34.567 aufklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 aufklappen</span>
                                 </span>
-                                <span class="collapse" title="Auftrag D19.10.2273 zuklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 zuklappen</span>
+                                <span class="collapse" title="Auftrag D12.34.567 zuklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 zuklappen</span>
                                 </span>
                             </button>
                         </td>
 
                         <td role="cell" data-column="Auftragnr." class="emphasized">
-                            D19.10.2273
+                            D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
                             Quality-focused bandwidth-monitored parallelism
@@ -387,17 +387,17 @@ Putting all of the pieces together for the Invoices view.
                     <tr role="row">
                         <td class="table-toggler-cell" role="cell">
                             <button is="tabelle-toggler" hidden aria-expanded="false">
-                                <span class="expand" title="Auftrag D19.10.2273 aufklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 aufklappen</span>
+                                <span class="expand" title="Auftrag D12.34.567 aufklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 aufklappen</span>
                                 </span>
-                                <span class="collapse" title="Auftrag D19.10.2273 zuklappen">
-                                    <span class="sr-only">Auftrag D19.10.2273 zuklappen</span>
+                                <span class="collapse" title="Auftrag D12.34.567 zuklappen">
+                                    <span class="sr-only">Auftrag D12.34.567 zuklappen</span>
                                 </span>
                             </button>
                         </td>
 
                         <td role="cell" data-column="Auftragnr." class="emphasized">
-                            D19.10.2273
+                            D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
                             Quality-focused bandwidth-monitored parallelism

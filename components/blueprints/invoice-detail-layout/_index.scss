@@ -1,4 +1,5 @@
 @use "../../../assets/stylesheets/breakpoints" as breakpoints;
+@use "../../../assets/stylesheets/shadows" as shadows;
 @use "../../../assets/stylesheets/spacers" as spacings;
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 
@@ -17,6 +18,14 @@
     & > * {
       margin-bottom: spacings.$spacer-md;
     }
+
+    section {
+      & > * {
+        margin-bottom: spacings.$spacer-xs;
+      }
+
+      margin-bottom: spacings.$spacer-lg;
+    }
   }
 
   @include breakpoints.for-tablet-portrait-up {
@@ -27,7 +36,7 @@
     .container-main {
       padding: spacings.$spacer-base spacings.$spacer-lg;
       grid-area: main;
-      box-shadow: 3px 0 3px 0 rgba(colors.$brand-blue, 0.25);
+      box-shadow: shadows.$box-shadow-right;
       z-index: 2;
     }
 
@@ -36,7 +45,7 @@
       display: flex;
       flex-direction: column;
       z-index: 1;
-      padding: spacings.$spacer-base spacings.$spacer-lg;
+      padding: spacings.$spacer-base spacings.$spacer-md;
 
       .add-link {
         margin-bottom: spacings.$spacer-xs;

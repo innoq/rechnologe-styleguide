@@ -16,7 +16,8 @@
   color: colors.$brand-red;
   font-size: typography.$font-size-sm;
   line-height: 1;
-  width: 5rem; //magic number
+  min-width: 5rem; //magic number
+  white-space: nowrap;
 
   .icon-caret-down {
     @include helpers.icon-before("caret-down-solid.svg", colors.$brand-red, 1rem);

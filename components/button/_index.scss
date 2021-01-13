@@ -4,12 +4,13 @@
 @use "../../assets/stylesheets/typography" as typography;
 
 .button {
+  @extend %heading-font-bold;
+
   display: inline-block;
   position: relative;
   border: 3px solid transparent;
   text-decoration: none;
   padding: spacings.$spacer-xxs spacings.$spacer-sm;
-  font-family: typography.$font-family-sans-serif;
   font-size: typography.$font-size-sm;
   background-color: inherit;
   line-height: 1;

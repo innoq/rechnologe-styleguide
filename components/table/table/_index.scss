@@ -1,5 +1,6 @@
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 
+@use "../../../assets/stylesheets/shadows" as shadows;
 @use "../../../assets/stylesheets/spacers" as spacings;
 @use "../../../assets/stylesheets/typography" as typography;
 @use "../../text";
@@ -17,7 +18,6 @@
   --border-color-td: #{colors.$brand-gray-50};
 
   border-collapse: collapse;
-  box-shadow: 0 5px 6px -7px rgba(0, 0, 0, 0.8), 0 2px 4px -5px rgb(0, 0, 0, 0.95);
 
   th {
     @include table-header-style();
@@ -31,6 +31,7 @@
     background-color: colors.$brand-white;
     color: colors.$brand-blue;
     vertical-align: top;
+    box-shadow: shadows.$box-shadow-down;
   }
 
   td {

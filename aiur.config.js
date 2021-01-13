@@ -30,6 +30,7 @@ module.exports = {
         button_group: "./components/button-group/README.md",
         header_with_actions: "./components/header-with-actions/README.md",
         menu: "./components/menu/README.md",
+        report: "./components/report/README.md",
         pagination: "./components/pagination/README.md",
         status_bar: "./components/status-bar/README.md",
         tabs_nav: "./components/tabs-nav/README.md"
