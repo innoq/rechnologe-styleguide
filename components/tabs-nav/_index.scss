@@ -14,13 +14,18 @@
 
   li {
     background-color: colors.$brand-red-25;
-    color: colors.$brand-white;
-    padding: spacings.$spacer-xxs spacings.$spacer-md;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: typography.$font-size-sm;
-    white-space: nowrap;
     transition: animations.$standard-transition;
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: spacings.$spacer-xxs spacings.$spacer-md;
+      color: colors.$brand-white;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: typography.$font-size-sm;
+      white-space: nowrap;
+    }
 
     &.active,
     &:hover,

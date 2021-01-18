@@ -336,9 +336,15 @@ Putting all of the pieces together for the Invoices Detail view.
         <div class="container-sidebar">
             <nav class="tabs-nav">
                 <ul>
-                    <li class="active">Leistungen</li>
-                    <li>Probleme</li>
-                    <li>Nachrichten</li>
+                    <li class="active">
+                        <a href="#">Leistungen</a>
+                    </li>
+                    <li>
+                        <a href="#">Probleme</a>
+                    </li>
+                    <li>
+                        <a href="#">Nachrichten</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -771,9 +777,15 @@ Sidebar View "Probleme"
         <div class="container-sidebar">
             <nav class="tabs-nav">
                 <ul>
-                    <li>Leistungen</li>
-                    <li class="active">Probleme</li>
-                    <li>Nachrichten</li>
+                    <li>
+                        <a href="#">Leistungen</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Probleme</a>
+                    </li>
+                    <li>
+                        <a href="#">Nachrichten</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -1193,9 +1205,15 @@ Sidebar View 'Nachrichten"
         <div class="container-sidebar">
             <nav class="tabs-nav">
                 <ul>
-                    <li>Leistungen</li>
-                    <li>Probleme</li>
-                    <li class="active">Nachrichten</li>
+                    <li>
+                        <a href="#">Leistungen</a>
+                    </li>
+                    <li>
+                        <a href="#">Probleme</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Nachrichten</a>
+                    </li>
                 </ul>
             </nav>
         </div>

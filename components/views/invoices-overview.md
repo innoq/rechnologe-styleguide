@@ -3,7 +3,7 @@ description: List all of the different invoices
 
 Putting all of the pieces together for the Invoices view.
 
-```html
+```html height=1000
 <div class="navbar-layout">
     <nav class="navbar">
         <a class="navbar-item brand" href="#">
