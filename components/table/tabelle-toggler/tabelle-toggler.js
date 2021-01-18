@@ -5,7 +5,7 @@ class TabelleToggler extends HTMLButtonElement {
   connectedCallback() {
     this.removeAttribute("hidden");
     this.initialExpand();
-    this.addEventListener("click", ev => {
+    this.addEventListener("click", (ev) => {
       ev.preventDefault();
       this.toggle();
     });
@@ -30,7 +30,7 @@ class TabelleToggler extends HTMLButtonElement {
   }
 
   removeHidden() {
-    find(this.closest("tr"), ".hide").forEach(e => {
+    find(this.closest("tr"), ".hide").forEach((e) => {
       e.classList.remove("hide");
     });
   }
@@ -45,7 +45,7 @@ class TabelleToggler extends HTMLButtonElement {
 
     find(this.closest("tr"), "td")
       .slice(this.nrOfCols + 1)
-      .forEach(e => {
+      .forEach((e) => {
         e.classList.add("hide");
       });
   }
