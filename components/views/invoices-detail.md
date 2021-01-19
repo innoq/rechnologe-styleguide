@@ -516,13 +516,13 @@ Sidebar View "Probleme"
                     </label>
                     <ul class="progress-bar-avatars">
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300" /></a>
                         </li>
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301" /></a>
                         </li>
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302" /></a>
                         </li>
                     </ul>
                     <a href="#" class="progress-bar-more-avatars">and five more</a>
@@ -535,7 +535,7 @@ Sidebar View "Probleme"
                     </label>
                     <ul class="progress-bar-avatars">
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300" /></a>
                         </li>
                     </ul>
                 </div>
@@ -944,13 +944,13 @@ Sidebar View 'Nachrichten"
                     </label>
                     <ul class="progress-bar-avatars">
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300" /></a>
                         </li>
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/301" /></a>
                         </li>
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/302" /></a>
                         </li>
                     </ul>
                     <a href="#" class="progress-bar-more-avatars">and five more</a>
@@ -963,7 +963,7 @@ Sidebar View 'Nachrichten"
                     </label>
                     <ul class="progress-bar-avatars">
                         <li>
-                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300"/></a>
+                            <a href="#" class="avatar-small"><img src="https://i.pravatar.cc/300" /></a>
                         </li>
                     </ul>
                 </div>
