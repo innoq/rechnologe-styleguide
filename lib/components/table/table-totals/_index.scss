@@ -1,0 +1,45 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+@use "../../../fundamentals/spacers" as spacings;
+@use "../../../fundamentals/typography" as typography;
+
+.table-totals {
+  border-bottom: 1px solid colors.$brand-blue;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: typography.$font-size-sm;
+  line-height: typography.$paragraph-line-height;
+
+  th,
+  td {
+    padding: spacings.$spacer-xs spacings.$spacer-xs;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: right;
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid colors.$brand-blue-25;
+    }
+
+    th {
+      color: colors.$brand-blue-25;
+    }
+  }
+
+  tfoot {
+    th {
+      color: colors.$brand-blue;
+    }
+
+    td {
+      font-weight: bold;
+    }
+  }
+}

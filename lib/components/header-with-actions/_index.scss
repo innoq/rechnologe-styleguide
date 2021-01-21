@@ -1,0 +1,17 @@
+@use "../../fundamentals/spacers" as spacings;
+
+.header-with-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-with-actions-wrapper {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-left: spacings.$spacer-md;
+  }
+}

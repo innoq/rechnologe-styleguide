@@ -1,0 +1,85 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+@use "../../fundamentals/spacers" as spacings;
+@use "../../fundamentals/typography" as typography;
+
+.progress-bar {
+  color: colors.$brand-blue-50;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: typography.$font-size-xs;
+
+  progress {
+    appearance: none;
+    height: spacings.$spacer-xs;
+    border-radius: 1rem;
+    width: 100%;
+  }
+
+  ::-webkit-progress-bar {
+    background-color: colors.$brand-gray-25;
+    border-radius: 1rem;
+  }
+
+  ::-webkit-progress-value {
+    border-radius: 1rem;
+  }
+
+  ::-moz-progress-bar {
+    border-radius: 1rem;
+  }
+
+  // I'd prefer to have a modifier with some meaning here, but I'm not sure
+  // when which progress bar is used.
+  &.green {
+    ::-webkit-progress-value {
+      background-color: colors.$brand-green;
+    }
+
+    ::-moz-progress-bar {
+      background-color: colors.$brand-green;
+    }
+  }
+
+  &.yellow {
+    ::-webkit-progress-value {
+      background-color: colors.$brand-yellow;
+    }
+
+    ::-moz-progress-bar {
+      background-color: colors.$brand-yellow;
+    }
+  }
+
+  &.red {
+    ::-webkit-progress-value {
+      background-color: colors.$brand-red;
+    }
+
+    ::-moz-progress-bar {
+      background-color: colors.$brand-red;
+    }
+  }
+}
+
+.progress-bar-with-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar-avatars {
+  list-style: none;
+  margin: 0 0 0 spacings.$spacer-sm;
+  padding: 0;
+  display: flex;
+
+  li {
+    margin-right: spacings.$spacer-xxs;
+  }
+}
+
+.progress-bar-more-avatars {
+  color: colors.$brand-blue-50;
+  font-size: typography.$font-size-xs;
+}
