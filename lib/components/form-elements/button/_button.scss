@@ -1,8 +1,8 @@
 @use "innoq-styleguide/dist/sass/settings/colors" as colors;
 
-@use "../../fundamentals/helpers" as helpers;
-@use "../../fundamentals/spacers" as spacings;
-@use "../../fundamentals/typography" as typography;
+@use "../../../fundamentals/helpers" as helpers;
+@use "../../../fundamentals/spacers" as spacings;
+@use "../../../fundamentals/typography" as typography;
 
 .button {
   @extend %heading-font-bold;

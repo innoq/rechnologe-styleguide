@@ -2,7 +2,7 @@
 
 @use "../../../fundamentals/breakpoints" as breakpoints;
 @use "../../../fundamentals/spacers" as spacings;
-@use "../table" as table;
+@use "../table/table" as table;
 
 @mixin responsive-behavior($maxWidth, $nrCols) {
   @media (max-width: #{$maxWidth}) {
