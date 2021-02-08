@@ -51,6 +51,10 @@
     @include helpers.icon-before("icons/download.svg", inherit, 1.5rem);
   }
 
+  &.icon-error {
+    @include helpers.icon-before("icons/error.svg", inherit, 1.5rem);
+  }
+
   &.icon-eye {
     @include helpers.icon-before("icons/eye.svg", inherit, 1.5rem);
   }

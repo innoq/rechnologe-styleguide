@@ -81,6 +81,12 @@ _eye_
 <span class="icon icon-eye" role="presentation"></span>
 ```
 
+\_error
+
+```html
+<span class="icon icon-error" role="presentation"></span>
+```
+
 _list-bulleted_
 
 ```html
