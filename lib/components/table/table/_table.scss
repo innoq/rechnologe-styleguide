@@ -3,7 +3,7 @@
 @use "../../../fundamentals/shadows" as shadows;
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
-@use "../../text";
+@use "../../text/text";
 
 @mixin table-header-style() {
   @extend %heading-font-bold;
