@@ -64,6 +64,15 @@
       text-decoration: none;
     }
 
+    button {
+      border: none;
+      padding: 0;
+      text-align: left;
+      font-size: typography.$font-size-sm;
+      color: colors.$brand-blue;
+      background-color: transparent;
+    }
+
     &:hover {
       background-color: colors.$brand-blue-25;
     }

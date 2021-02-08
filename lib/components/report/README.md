@@ -12,9 +12,9 @@ A collection of report types
             <div class="dropdown-wrapper">
                 <a href="#" class="dropdown-button" aria-haspopup="true">Später beheben<span class="icon icon-caret-down" role="presentation"></span></a>
                 <ul aria-label="submenu">
-                    <li><a href="#">Aktion Aktion1</a></li>
-                    <li><a href="#">Aktion 2</a></li>
-                    <li><a href="#">Aktion 3</a></li>
+                    <li><a href="#">Aktion Link</a></li>
+                    <li><a href="#">Aktion Link</a></li>
+                    <li><button type="button">Aktion Button</button></li>
                 </ul>
             </div>
         </nav>
@@ -32,9 +32,9 @@ A collection of report types
             <div class="dropdown-wrapper">
                 <a href="#" class="dropdown-button" aria-haspopup="true">Später beheben<span class="icon icon-caret-down" role="presentation"></span></a>
                 <ul aria-label="submenu">
-                    <li><a href="#">Aktion Aktion1</a></li>
-                    <li><a href="#">Aktion 2</a></li>
-                    <li><a href="#">Aktion 3</a></li>
+                    <li><a href="#">Aktion Link</a></li>
+                    <li><a href="#">Aktion Link</a></li>
+                    <li><button type="button">Aktion Button</button></li>
                 </ul>
             </div>
         </nav>
