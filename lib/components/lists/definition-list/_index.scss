@@ -14,8 +14,12 @@
   dd {
     color: colors.$brand-blue;
     margin-left: 0;
-    margin-bottom: spacings.$spacer-base;
+    margin-bottom: spacings.$spacer-md;
     font-size: typography.$font-size-sm;
     line-height: typography.$paragraph-line-height;
+
+    a {
+      color: colors.$brand-blue;
+    }
   }
 }

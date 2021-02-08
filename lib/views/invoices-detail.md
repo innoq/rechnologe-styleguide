@@ -112,7 +112,7 @@ Putting all of the pieces together for the Invoices Detail view.
                             Deutschland
                         </dd>
                         <dt>Empfänger</dt>
-                        <dd>Heribert Innoq</dd>
+                        <dd><a href="#">Heribert Innoq</a></dd>
                         <dt>Kundennummer</dt>
                         <dd>0815</dd>
                         <dt>Leistungszeitraum</dt>
