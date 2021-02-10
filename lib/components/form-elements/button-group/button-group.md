@@ -9,8 +9,8 @@ This shows you what the component looks like in your current viewport
 
 ```html
 <div class="button-group">
-  <button class="button tertiary" type="submit">Faule Schweine erinnern</button>
-  <button class="button primary" type="submit">Neue Rechnung</button>
+    <button class="button tertiary" type="submit">Faule Schweine erinnern</button>
+    <button class="button primary" type="submit">Neue Rechnung</button>
 </div>
 ```
 
@@ -22,20 +22,18 @@ Wrapping behavior as a default is a _good thing_.
 If you need the buttons to all line up on the same line,
 combine this with different approaches.
 
-```html width="320"
+```html width="220"
 <div class="button-group">
-  <button class="button tertiary" type="submit">Faule Schweine erinnern</button>
-  <button class="button primary" type="submit">Neue Rechnung</button>
+    <button class="button tertiary" type="submit">Faule Schweine erinnern</button>
+    <button class="button primary" type="submit">Neue Rechnung</button>
 </div>
 ```
 
 ## Use a shorter label if you need to have it be placed on the same line!
 
-If you
-
 ```html width="320"
 <div class="button-group">
-  <button class="button tertiary" type="submit">Faule erinnern</button>
-  <button class="button primary" type="submit">Neue Rechnung</button>
+    <button class="button tertiary" type="submit">Faule erinnern</button>
+    <button class="button primary" type="submit">Neue Rechnung</button>
 </div>
 ```

@@ -3,6 +3,8 @@
 @use "../../fundamentals/helpers" as helpers;
 
 .icon {
+  display: inline-flex;
+  align-items: center;
   &.icon-add {
     @include helpers.icon-before("icons/add.svg", inherit, 1.5rem);
   }

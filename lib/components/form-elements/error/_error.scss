@@ -1,0 +1,7 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@use "../../../fundamentals/spacers" as spacings;
+
+.form-error-message {
+  color: colors.$brand-red;
+  margin-bottom: spacings.$spacer-xxxs;
+}

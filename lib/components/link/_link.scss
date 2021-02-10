@@ -25,3 +25,17 @@
   line-height: 1;
   color: colors.$brand-red;
 }
+
+.text-link {
+  color: colors.$brand-blue-50;
+
+  &.small {
+    font-size: typography.$font-size-sm;
+  }
+}
+
+.icon-link {
+  .icon-pencil {
+    @include helpers.icon-before("icons/pencil.svg", colors.$brand-red, 0.75rem);
+  }
+}

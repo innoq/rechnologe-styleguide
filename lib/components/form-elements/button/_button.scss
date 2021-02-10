@@ -53,4 +53,11 @@
       color: white;
     }
   }
+
+  &.small {
+    @extend %heading-font-regular;
+
+    padding: 3px; //magic number
+    font-size: typography.$font-size-sm;
+  }
 }

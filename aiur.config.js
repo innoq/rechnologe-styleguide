@@ -73,8 +73,12 @@ module.exports = {
         form_elements: {
           file: "./lib/components/form-elements/form-elements.md",
           children: {
+            form_group: "./lib/components/form-elements/form-group/form-group.md",
             button: "./lib/components/form-elements/button/button.md",
             text_field: "./lib/components/form-elements/text-field/text-field.md",
+            text_area: "./lib/components/form-elements/text-area/text-area.md",
+            error: "./lib/components/form-elements/error/error.md",
+            hint: "./lib/components/form-elements/hint/hint.md",
           },
         },
         icon: "./lib/components/icon/icon.md",

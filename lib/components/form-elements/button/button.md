@@ -33,6 +33,8 @@ The tertiary variant:
 <button class="button tertiary" type="submit">Submit a form</button>
 ```
 
+---
+
 ### Buttons of type "button"
 
 The primary variant:
@@ -52,6 +54,8 @@ The tertiary variant:
 ```html
 <button class="button tertiary" type="button">Perform a custom action</button>
 ```
+
+---
 
 ## LinkButton
 
@@ -75,4 +79,16 @@ This accepts an `href` as a parameter.
 
 ```html
 <a class="button tertiary" href="#">Go somewhere else!</a>
+```
+
+---
+
+## Button sizes
+
+```html
+<button class="button primary" type="submit">Submit a form</button>
+```
+
+```html
+<button class="button primary small" type="submit">Submit a form</button>
 ```

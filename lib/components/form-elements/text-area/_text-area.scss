@@ -2,22 +2,17 @@
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
 
-.form-label {
-  font-size: typography.$font-size-sm;
-  margin-bottom: spacings.$spacer-xxxs;
-  color: colors.$brand-blue-50;
-}
-
-.form-input {
+.form-textarea {
   @extend %heading-font-regular;
 
   border: 1px solid colors.$brand-blue-25;
-  height: spacings.$spacer-md;
+  min-height: spacings.$spacer-base;
   font-size: typography.$font-size-md;
+  line-height: typography.$paragraph-line-height;
   padding: spacings.$spacer-xs;
   color: colors.$brand-blue;
 }
 
-.form-input--error {
+.form-textarea--error {
   border: 2px solid colors.$brand-red;
 }

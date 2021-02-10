@@ -112,14 +112,21 @@ Putting all of the pieces together for the Invoices Detail view.
                             Deutschland
                         </dd>
                         <dt>Empfänger</dt>
-                        <dd><a hreftypo="#">Heribert Innoq</a></dd>
+                        <dd><a href="#">Heribert Innoq</a></dd>
                         <dt>Kundennummer</dt>
-                        <dd>0815</dd>
+                        <dd>0815
+                            <a class="icon-link" href="#">
+                                <span class="icon icon-pencil" role="presentation"></span>
+                                <span class="sr-only">Bearbeiten</span>
+                            </a>
+                        </dd>
                         <dt>Leistungszeitraum</dt>
-                        <dd>Dezember 2020</dd>
+                        <dd>
+                            Dezember 2019
+                        </dd>
                         <dt>Kostenstelle</dt>
                         <dd>[AA001111] Kostenstelle xyz</dd>
-                        <dt>Referenztest für Rechnung</dt>
+                        <dt>Referenztext für Rechnung</dt>
                         <dd>Bester Text ever</dd>
                         <dt>Angebots-Referenz</dt>
                         <dd>INV/D12.34.567/2020-01-02</dd>
@@ -138,7 +145,12 @@ Putting all of the pieces together for the Invoices Detail view.
                 <div class="invoice-body">
                     <h2>Text</h2>
                     <p class="serif">Sehr geehrte Frau Ebstein,</p>
-                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.</p>
+                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.
+                        <a class="icon-link" href="#">
+                            <span class="icon icon-pencil" role="presentation"></span>
+                            <span class="sr-only">Bearbeiten</span>
+                        </a>
+                    </p>
 
                     <h2>Leistungen</h2>
 
@@ -556,12 +568,38 @@ Sidebar View "Probleme"
                         <dt>Empfänger</dt>
                         <dd>Heribert Innoq</dd>
                         <dt>Kundennummer</dt>
-                        <dd>0815</dd>
+                        <dd>
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only" for="text-field"> Ich bin ein Label</label>
+                                    <span id="form-error" class="form-error-message">
+                                        <span class="sr-only">Error:</span>
+                                        Da ist etwas nicht korrekt.
+                                    </span>
+                                    <input class="form-input form-input--error" id="text-field" name="text-field" rows="5" aria-describedby="form-hint form-error"></input>
+                                    <div class="button-group">
+                                        <button class="button primary small" type="submit">Speichern</button>
+                                        <a href="#" class="text-link small">Abbrechen</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </dd>
                         <dt>Leistungszeitraum</dt>
-                        <dd>Dezember 2020</dd>
+                        <dd>
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only" for="text-field"> Ich bin ein lustiges Label </label>
+                                    <input class="form-input" id="label-name" name="label-name" type="text" />
+                                    <div class="button-group">
+                                        <button class="button primary small" type="submit">Speichern</button>
+                                        <a href="#" class="text-link small">Abbrechen</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </dd>
                         <dt>Kostenstelle</dt>
                         <dd>[AA001111] Kostenstelle xyz</dd>
-                        <dt>Referenztest für Rechnung</dt>
+                        <dt>Referenztext für Rechnung</dt>
                         <dd>Bester Text ever</dd>
                         <dt>Angebots-Referenz</dt>
                         <dd>INV/D12.34.567/2020-01-02</dd>
@@ -579,8 +617,16 @@ Sidebar View "Probleme"
                 </div>
                 <div class="invoice-body">
                     <h2>Text</h2>
-                    <p class="serif">Sehr geehrte Frau Ebstein,</p>
-                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.</p>
+                    <form>
+                        <div class="form-group">
+                            <label class="sr-only" for="text-area"> Ich bin ein Label </label>
+                            <textarea class="form-textarea" id="text-area" name="text-area" rows="5"></textarea>
+                            <div class="button-group">
+                                <button class="button primary small" type="submit">Speichern</button>
+                                <a href="#" class="text-link small">Abbrechen</a>
+                            </div>
+                        </div>
+                    </form>
 
                     <h2>Leistungen</h2>
                     <table role="table" class="table table-responsive">
