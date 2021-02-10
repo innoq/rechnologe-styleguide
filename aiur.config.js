@@ -68,6 +68,7 @@ module.exports = {
         amount: "./lib/components/amount/amount.md",
         avatar: "./lib/components/avatar/avatar.md",
         definition_list: "./lib/components/lists/definition-list/definition-list.md",
+        editable_indicator: "./lib/components/editable-indicator/editable-indicator.md",
         headings: "./lib/components/headings/headings.md",
         flash: "./lib/components/flash/flash.md",
         form_elements: {

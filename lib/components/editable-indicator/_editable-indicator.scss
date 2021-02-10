@@ -1,0 +1,9 @@
+@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+
+@use "../../fundamentals/helpers" as helpers;
+
+.editable-indicator {
+  .icon.icon-pencil {
+    @include helpers.icon-before("icons/pencil.svg", colors.$brand-red, 0.75rem);
+  }
+}

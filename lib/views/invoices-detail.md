@@ -115,10 +115,10 @@ Putting all of the pieces together for the Invoices Detail view.
                         <dd><a href="#">Heribert Innoq</a></dd>
                         <dt>Kundennummer</dt>
                         <dd>0815
-                            <a class="icon-link" href="#">
+                            <span class="editable-indicator">
                                 <span class="icon icon-pencil" role="presentation"></span>
                                 <span class="sr-only">Bearbeiten</span>
-                            </a>
+                            </span>
                         </dd>
                         <dt>Leistungszeitraum</dt>
                         <dd>
@@ -146,12 +146,11 @@ Putting all of the pieces together for the Invoices Detail view.
                     <h2>Text</h2>
                     <p class="serif">Sehr geehrte Frau Ebstein,</p>
                     <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.
-                        <a class="icon-link" href="#">
-                            <span class="icon icon-pencil" role="presentation"></span>
-                            <span class="sr-only">Bearbeiten</span>
-                        </a>
+                         <span class="editable-indicator">
+                                <span class="icon icon-pencil" role="presentation"></span>
+                                <span class="sr-only">Bearbeiten</span>
+                        </span>
                     </p>
-
                     <h2>Leistungen</h2>
 
                     <table role="table" class="table table-responsive">
