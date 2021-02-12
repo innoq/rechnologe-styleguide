@@ -4,7 +4,8 @@
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
 
-.button {
+.button,
+.btn {
   @extend %heading-font-bold;
 
   display: inline-block;
@@ -20,7 +21,8 @@
     outline: 3px solid colors.$brand-blue-25;
   }
 
-  &.primary {
+  &.primary,
+  &.-primary {
     background-color: colors.$brand-red;
     border-color: colors.$brand-red;
     color: white;
@@ -32,7 +34,8 @@
     }
   }
 
-  &.secondary {
+  &.secondary,
+  &.-secondary {
     border-color: colors.$brand-blue;
     color: colors.$brand-blue;
 
@@ -43,7 +46,8 @@
     }
   }
 
-  &.tertiary {
+  &.tertiary,
+  &.-tertiary {
     border-color: colors.$brand-red;
     color: colors.$brand-red;
 
@@ -54,7 +58,8 @@
     }
   }
 
-  &.small {
+  &.small,
+  &.-sm {
     @extend %heading-font-regular;
 
     padding: 3px; //magic number
