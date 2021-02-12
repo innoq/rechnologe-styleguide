@@ -2,7 +2,7 @@
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
 
-.form-hint {
+.form-text {
   font-size: typography.$font-size-sm;
   margin-bottom: spacings.$spacer-xxxs;
   color: colors.$brand-blue-50;

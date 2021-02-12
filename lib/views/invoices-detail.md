@@ -571,11 +571,11 @@ Sidebar View "Probleme"
                             <form>
                                 <div class="form-group">
                                     <label class="sr-only" for="text-field"> Ich bin ein Label</label>
-                                    <span id="form-error" class="form-error-message">
+                                    <span id="form-error" class="invalid-feedback">
                                         <span class="sr-only">Error:</span>
                                         Da ist etwas nicht korrekt.
                                     </span>
-                                    <input class="form-input form-input--error" id="text-field" name="text-field" rows="5" aria-describedby="form-hint form-error"></input>
+                                    <input class="form-control is-invalid" id="text-field" name="text-field" rows="5" aria-describedby="invalid-feedback"></input>
                                     <div class="button-group">
                                         <button class="button primary small" type="submit">Speichern</button>
                                         <a href="#" class="text-link small">Abbrechen</a>
@@ -619,7 +619,7 @@ Sidebar View "Probleme"
                     <form>
                         <div class="form-group">
                             <label class="sr-only" for="text-area"> Ich bin ein Label </label>
-                            <textarea class="form-textarea" id="text-area" name="text-area" rows="5"></textarea>
+                            <textarea id="text-area" name="text-area" rows="5"></textarea>
                             <div class="button-group">
                                 <button class="button primary small" type="submit">Speichern</button>
                                 <a href="#" class="text-link small">Abbrechen</a>

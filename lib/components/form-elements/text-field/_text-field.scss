@@ -2,13 +2,13 @@
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
 
-.form-label {
+label {
   font-size: typography.$font-size-sm;
   margin-bottom: spacings.$spacer-xxxs;
   color: colors.$brand-blue-50;
 }
 
-.form-input {
+.form-control {
   @extend %heading-font-regular;
 
   border: 1px solid colors.$brand-blue-25;
@@ -18,6 +18,6 @@
   color: colors.$brand-blue;
 }
 
-.form-input--error {
+.is-invalid {
   border: 2px solid colors.$brand-red;
 }

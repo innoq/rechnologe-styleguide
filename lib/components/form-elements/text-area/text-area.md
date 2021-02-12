@@ -5,32 +5,32 @@ Text areas
 
 ## Text area with visible label
 
-```html height=500
+```html height=200
 <div class="form-group">
-    <label class="form-label" for="text-area"> Ich bin ein Label </label>
-    <textarea class="form-textarea" id="text-area" name="text-area" rows="5"></textarea>
+    <label for="text-area"> Ich bin ein Label </label>
+    <textarea id="text-area" name="text-area" rows="5"></textarea>
 </div>
 ```
 
 ## Text area with invisible label
 
-```html height=500
+```html height=200
 <div class="form-group">
     <label class="sr-only" for="text-area"> Ich bin ein Label </label>
-    <textarea class="form-textarea" id="text-area" name="text-area" rows="5"></textarea>
+    <textarea id="text-area" name="text-area" rows="5"></textarea>
 </div>
 ```
 
 ## Text area with error message
 
-```html height=500
+```html height=200
 <div class="form-group">
     <label class="form-label" for="text-area"> Ich bin ein Label</label>
-    <div id="form-hint" class="form-hint">Gib hier deinen Text ein.</div>
-    <span id="form-error" class="form-error-message">
+    <small class="form-text">Must be at least 6 characters long</small>
+    <span id="form-error" class="invalid-feedback">
         <span class="sr-only">Error:</span>
         Da ist etwas nicht korrekt.
     </span>
-    <textarea class="form-textarea form-textarea--error" id="text-area" name="text-area" rows="5" aria-describedby="form-hint form-error"></textarea>
+    <textarea class="is-invalid" id="text-area" name="text-area" rows="5" aria-describedby="form-text is-invalid"></textarea>
 </div>
 ```

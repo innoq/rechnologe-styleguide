@@ -2,7 +2,7 @@
 @use "../../../fundamentals/spacers" as spacings;
 @use "../../../fundamentals/typography" as typography;
 
-.form-textarea {
+textarea {
   @extend %heading-font-regular;
 
   border: 1px solid colors.$brand-blue-25;
@@ -13,6 +13,6 @@
   color: colors.$brand-blue;
 }
 
-.form-textarea--error {
+.is-invalid {
   border: 2px solid colors.$brand-red;
 }
