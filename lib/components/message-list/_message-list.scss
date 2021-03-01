@@ -1,0 +1,17 @@
+.message-list {
+  @extend %list-unstyled;
+}
+
+.message-list-item {
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-sm;
+  margin-bottom: $spacer-xs;
+  color: $brand-gray-50;
+}
+
+.message-list-item-text {
+  background-color: $brand-petrol-25;
+  color: $brand-text;
+  padding: $spacer-xs $spacer-xxs;
+}

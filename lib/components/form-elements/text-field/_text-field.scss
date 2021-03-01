@@ -1,19 +1,19 @@
 label {
   font-size: $font-size-sm;
   margin-bottom: $spacer-xxxs;
-  color: $brand-blue-50;
+  color: $brand-petrol-50;
 }
 
 .form-control {
   @extend %heading-font-regular;
 
-  border: 1px solid $brand-blue-25;
+  border: 1px solid $brand-gray-25;
   height: $spacer-md;
   font-size: $font-size-md;
   padding: $spacer-xs;
-  color: $brand-blue;
+  color: $brand-text;
 }
 
 .is-invalid {
-  border: 2px solid $brand-red;
+  border: 2px solid $brand-red-50;
 }

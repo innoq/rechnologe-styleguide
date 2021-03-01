@@ -24,7 +24,7 @@
     left: 0;
     width: $spacer-base;
     content: "▶︎";
-    color: $brand-blue;
+    color: $brand-text;
   }
 
   &[open] {
@@ -43,7 +43,7 @@
   }
 
   a {
-    color: $brand-red;
+    color: $brand-secondary;
   }
 }
 

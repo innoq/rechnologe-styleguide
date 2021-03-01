@@ -1,0 +1,15 @@
+.person {
+  display: flex;
+  align-items: center;
+  font-size: $font-size-sm;
+
+  .avatar-small {
+    margin-right: $spacer-xxs;
+  }
+
+  .person-name {
+    @extend %heading-font-bold;
+
+    color: $brand-secondary;
+  }
+}

@@ -1,20 +1,20 @@
 .invoice-meta {
   dt {
     text-transform: uppercase;
-    color: $brand-blue-25;
+    color: $brand-petrol-25;
     font-size: $font-size-xs;
     line-height: $paragraph-line-height;
   }
 
   dd {
-    color: $brand-blue;
+    color: $brand-text;
     margin-left: 0;
     margin-bottom: $spacer-md;
     font-size: $font-size-sm;
     line-height: $paragraph-line-height;
 
     a {
-      color: $brand-blue;
+      color: $brand-text;
     }
   }
 }

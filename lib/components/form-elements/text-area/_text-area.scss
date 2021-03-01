@@ -6,9 +6,9 @@ textarea {
   font-size: $font-size-md;
   line-height: $paragraph-line-height;
   padding: $spacer-xs;
-  color: $brand-blue;
+  color: $brand-text;
 }
 
 .is-invalid {
-  border: 2px solid $brand-red;
+  border: 2px solid $brand-red-50;
 }

@@ -8,14 +8,14 @@
   }
 
   li {
-    background-color: $brand-red-25;
+    background-color: $brand-apricot-25;
     transition: $standard-transition;
 
     a {
       display: block;
       text-decoration: none;
       padding: $spacer-xxs $spacer-md;
-      color: $brand-white;
+      color: $brand-secondary;
       cursor: pointer;
       font-weight: bold;
       font-size: $font-size-sm;
@@ -25,7 +25,7 @@
     &.active,
     &:hover,
     &:focus {
-      background-color: $brand-red;
+      background-color: $brand-primary;
     }
 
     &:first-child {

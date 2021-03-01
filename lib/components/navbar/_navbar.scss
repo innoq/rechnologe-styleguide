@@ -36,18 +36,18 @@ which moves the navbar to the left-hand side */
 }
 
 .navbar {
-  --background-color: #{$brand-blue};
-  --hover-color: #{$brand-blue-75};
-  --text-color: #{$brand-blue-25};
+  --background-color: #{$brand-secondary};
+  --hover-color: #{$brand-petrol-75};
+  --text-color: #{$brand-petrol-25};
   --row-width: 4rem;
 
   .current {
     .symbol {
-      background-color: $brand-blue-75;
+      background-color: $brand-petrol-75;
     }
 
     .label {
-      color: $brand-red;
+      color: $brand-primary;
     }
   }
 
@@ -57,7 +57,7 @@ which moves the navbar to the left-hand side */
     }
 
     &:hover {
-      background-color: $brand-blue;
+      background-color: $brand-secondary;
     }
   }
 }

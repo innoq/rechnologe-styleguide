@@ -1,20 +1,20 @@
 .dropdown-button {
   @extend %heading-font-bold;
 
-  border: 2px solid $brand-red;
+  border: 2px solid $brand-secondary;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: $spacer-xxs $spacer-sm;
   text-decoration: none;
-  color: $brand-red;
+  color: $brand-secondary;
   font-size: $font-size-sm;
   line-height: 1;
   min-width: 5rem; //magic number
   white-space: nowrap;
 
   .icon-caret-down {
-    @include icon-before("icons/caret-down-solid.svg", $brand-red, 1rem);
+    @include icon-before("icons/caret-down-solid.svg", $brand-secondary, 1rem);
 
     margin-left: $spacer-xxs;
   }
@@ -26,7 +26,7 @@
   }
 
   .icon-dots-vertical {
-    @include icon-before("icons/dots-vertical.svg", $brand-blue-25, 1.5rem);
+    @include icon-before("icons/dots-vertical.svg", $brand-gray-25, 1.5rem);
   }
 }
 
@@ -53,7 +53,7 @@
     padding: $spacer-xs $spacer-xs;
 
     a {
-      color: $brand-blue;
+      color: $brand-text;
       text-decoration: none;
     }
 
@@ -62,12 +62,12 @@
       padding: 0;
       text-align: left;
       font-size: $font-size-sm;
-      color: $brand-blue;
+      color: $brand-text;
       background-color: transparent;
     }
 
     &:hover {
-      background-color: $brand-blue-25;
+      background-color: $brand-gray-25;
     }
   }
 

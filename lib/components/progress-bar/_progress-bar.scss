@@ -1,5 +1,5 @@
 .progress-bar {
-  color: $brand-blue-50;
+  color: $brand-petrol-50;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
@@ -39,11 +39,11 @@
 
   &.yellow {
     ::-webkit-progress-value {
-      background-color: $brand-yellow;
+      background-color: $brand-primary;
     }
 
     ::-moz-progress-bar {
-      background-color: $brand-yellow;
+      background-color: $brand-primary;
     }
   }
 
@@ -75,6 +75,6 @@
 }
 
 .progress-bar-more-avatars {
-  color: $brand-blue-50;
+  color: $brand-petrol-50;
   font-size: $font-size-xs;
 }

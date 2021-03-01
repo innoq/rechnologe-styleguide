@@ -1,5 +1,5 @@
 .table-totals {
-  border-bottom: 1px solid $brand-blue;
+  border-bottom: 1px solid $brand-secondary;
   width: 100%;
   border-collapse: collapse;
   font-size: $font-size-sm;
@@ -20,17 +20,17 @@
 
   tbody {
     tr {
-      border-bottom: 1px solid $brand-blue-25;
+      border-bottom: 1px solid $brand-petrol-25;
     }
 
     th {
-      color: $brand-blue-25;
+      color: $brand-petrol-25;
     }
   }
 
   tfoot {
     th {
-      color: $brand-blue;
+      color: $brand-secondary;
     }
 
     td {

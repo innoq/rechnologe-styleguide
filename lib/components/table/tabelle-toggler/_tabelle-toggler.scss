@@ -13,7 +13,7 @@ button[is="tabelle-toggler"] {
       &::before {
         @extend %heading-font-bold;
         content: "▼";
-        color: $brand-blue;
+        color: $brand-secondary;
       }
     }
   }
@@ -24,7 +24,7 @@ button[is="tabelle-toggler"] {
       &::before {
         @extend %heading-font-bold;
         content: "▶︎";
-        color: $brand-blue;
+        color: $brand-secondary;
       }
     }
   }

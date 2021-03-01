@@ -3,6 +3,7 @@ INNOQ Styleguide
 */
 @import "innoq-styleguide/dist/sass/generic/fontfaces";
 @import "innoq-styleguide/dist/sass/settings/colors";
+@import "innoq-styleguide/dist/sass/settings/theme-apripetrol";
 
 @import "../../fundamentals/typography";
 @import "../../fundamentals/helpers";
@@ -16,6 +17,7 @@ Application specific code
 */
 @import "../../components/avatar/avatar";
 @import "../../components/amount/amount";
+@import "../../components/changelog-list/changelog-list";
 @import "../../components/editable-indicator/editable-indicator";
 @import "../../components/flash/flash";
 
@@ -32,7 +34,9 @@ Application specific code
 @import "../../components/icon/icon";
 @import "../../components/link/link";
 @import "../../components/lists/definition-list/definition-list";
+@import "../../components/lists/unordered-list/unordered-list";
 @import "../../components/menu/menu";
+@import "../../components/message-list/message-list";
 @import "../../components/report/report";
 @import "../../components/navbar/navbar";
 @import "../../components/page-category/page-category";
@@ -50,6 +54,8 @@ Application specific code
 @import "../../components/tabs-nav/tabs-nav";
 
 @import "../../components/text/text";
+
+@import "../../components/person/person";
 
 @import "../../blueprints/invoice-detail-layout/invoice-detail-layout";
 @import "../../blueprints/main-layout/main-layout";

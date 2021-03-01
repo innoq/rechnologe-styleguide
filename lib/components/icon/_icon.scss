@@ -62,7 +62,7 @@
   }
 
   &.icon-INNOQ {
-    @include icon-before("icons/INNOQ.svg", $brand-red, 1.5rem);
+    @include icon-before("icons/INNOQ.svg", $brand-primary, 1.5rem);
   }
 
   &.icon-pencil {

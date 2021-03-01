@@ -15,14 +15,14 @@
   th {
     @include table-header-style();
 
-    color: $brand-blue-25;
+    color: $brand-petrol-25;
     text-align: left;
     align-self: end;
   }
 
   tbody {
     background-color: $brand-white;
-    color: $brand-blue;
+    color: $brand-text;
     vertical-align: top;
     box-shadow: $box-shadow-down;
   }

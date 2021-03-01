@@ -5,7 +5,7 @@
   height: 20px; //magic number
 
   &.is-incomplete {
-    background-color: $brand-red;
+    background-color: $brand-red-50;
   }
 
   &.is-complete {

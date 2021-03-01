@@ -2,7 +2,7 @@
   display: inline-flex;
   align-items: center;
   font-weight: bold;
-  color: $brand-red;
+  color: $brand-secondary;
   text-decoration: none;
   font-size: $font-size-sm;
 
@@ -17,11 +17,11 @@
   display: inline-flex;
   align-items: center;
   line-height: 1;
-  color: $brand-red;
+  color: $brand-secondary;
 }
 
 .text-link {
-  color: $brand-blue-50;
+  color: $brand-gray-50;
 
   &.small {
     font-size: $font-size-sm;
@@ -30,6 +30,6 @@
 
 .icon-link {
   .icon-pencil {
-    @include icon-before("icons/pencil.svg", $brand-red, 0.75rem);
+    @include icon-before("icons/pencil.svg", $brand-primary, 0.75rem);
   }
 }

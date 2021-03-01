@@ -17,38 +17,41 @@
 
   &.primary,
   &.-primary {
-    background-color: $brand-red;
-    border-color: $brand-red;
-    color: white;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+    color: $brand-secondary;
 
     &:focus,
     &:hover {
-      border-color: $brand-blue;
-      background-color: $brand-blue;
+      border-color: $brand-secondary;
+      background-color: $brand-secondary;
+      color: $brand-primary;
     }
   }
 
   &.secondary,
   &.-secondary {
-    border-color: $brand-blue;
-    color: $brand-blue;
+    border-color: $brand-secondary;
+    color: $brand-secondary;
 
     &:focus,
     &:hover {
-      border-color: $brand-red;
-      background-color: $brand-blue;
+      border-color: $brand-primary;
+      background-color: $brand-secondary;
+      color: $brand-primary;
     }
   }
 
   &.tertiary,
   &.-tertiary {
-    border-color: $brand-red;
-    color: $brand-red;
+    border-color: $brand-primary;
+    background-color: $brand-secondary;
+    color: $brand-primary;
 
     &:focus,
     &:hover {
-      background-color: $brand-red;
-      color: white;
+      background-color: $brand-primary;
+      color: $brand-secondary;
     }
   }
 

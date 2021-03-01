@@ -1,0 +1,11 @@
+.changelog-list {
+  @extend %list-unstyled;
+}
+
+.changelog-list-item {
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-sm;
+  margin-bottom: $spacer-xs;
+  color: $brand-blue-50;
+}

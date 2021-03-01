@@ -1261,6 +1261,66 @@ Sidebar View 'Nachrichten"
                     </li>
                 </ul>
             </nav>
+            <section>
+                <h2>Nachrichten</h2>
+                <ul class="message-list">
+                    <li class="message-list-item">
+                        <div class="person">
+                            <span class="avatar-small">
+                                <img src="https://i.pravatar.cc/300" />
+                            </span>
+                            <address class="person-name">Heribert Innoq</address>
+                        </div>
+                        <time datetime="2020-12-20 13:00">Mittwoch 20.12.20 13 Uhr</time>
+                        <span class="message-list-item-text">Dies ist eine sehr wichtige Nachricht.</span>
+                    </li>
+                    <li class="message-list-item">
+                        <div class="person">
+                            <span class="avatar-small">
+                                <img src="https://i.pravatar.cc/300" />
+                            </span>
+                            <address class="person-name">Heribert Innoq</address>
+                        </div>
+                        <time datetime="2020-12-20 13:00">Mittwoch 20.12.20 13 Uhr</time>
+                        <span class="message-list-item-text">Diese Nachricht ist noch wichtiger und toller.</span>
+                    </li>
+                </ul>
+                <form>
+                    <div class="form-group">
+                        <label class="sr-only" for="text-area"> Nachricht eingeben</label>
+                        <textarea id="text-area" name="text-area" rows="2"></textarea>
+                        <div class="button-group">
+                            <button class="button primary small" type="submit">Speichern</button>
+                            <a href="#" class="text-link small">Abbrechen</a>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h2>Änderungshistorie</h2>
+                <ul class="changelog-list">
+                    <li class="changelog-list-item">
+                        <div class="person">
+                            <span class="avatar-small">
+                                <img src="https://i.pravatar.cc/300" />
+                            </span>
+                            <address class="person-name">Rechnologe</address>
+                        </div>
+                        <time datetime="2020-12-20 13:00">Mittwoch 20.12.20 13 Uhr</time>
+                        <span>Rechnung wurde geändert</span>
+                    </li>
+                    <li class="changelog-list-item">
+                        <div class="person">
+                            <span class="avatar-small">
+                                <img src="https://i.pravatar.cc/300" />
+                            </span>
+                            <address class="person-name">Rechnologe</address>
+                        </div>
+                        <time datetime="2020-12-20 13:00">Mittwoch 20.12.20 13 Uhr</time>
+                        <span>Rechnung wurde erstellt</span>
+                    </li>
+                </ul>
+            </section>
         </div>
     </main>
 </div>
