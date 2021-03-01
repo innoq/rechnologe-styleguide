@@ -1,53 +1,56 @@
 /*
 INNOQ Styleguide
 */
-@use "innoq-styleguide/dist/sass/generic/fontfaces";
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
+@import "innoq-styleguide/dist/sass/generic/fontfaces";
+@import "innoq-styleguide/dist/sass/settings/colors";
 
-@use "../../fundamentals/typography" as typography;
-@use "../../fundamentals/helpers" as helpers;
-@use "../../fundamentals/base" as base;
-
+@import "../../fundamentals/typography";
+@import "../../fundamentals/helpers";
+@import "../../fundamentals/base";
+@import "../../fundamentals/animations";
+@import "../../fundamentals/breakpoints";
+@import "../../fundamentals/shadows";
+@import "../../fundamentals/spacers";
 /*
 Application specific code
 */
-@use "../../components/avatar/avatar";
-@use "../../components/amount/amount";
-@use "../../components/editable-indicator/editable-indicator";
-@use "../../components/flash/flash";
+@import "../../components/avatar/avatar";
+@import "../../components/amount/amount";
+@import "../../components/editable-indicator/editable-indicator";
+@import "../../components/flash/flash";
 
-@use "../../components/form-elements/button/button";
-@use "../../components/form-elements/button-group/button-group";
-@use "../../components/form-elements/error/error";
-@use "../../components/form-elements/form-group/form-group";
-@use "../../components/form-elements/hint/hint";
-@use "../../components/form-elements/text-area/text-area";
-@use "../../components/form-elements/text-field/text-field";
+@import "../../components/form-elements/button/button";
+@import "../../components/form-elements/button-group/button-group";
+@import "../../components/form-elements/error/error";
+@import "../../components/form-elements/form-group/form-group";
+@import "../../components/form-elements/hint/hint";
+@import "../../components/form-elements/text-area/text-area";
+@import "../../components/form-elements/text-field/text-field";
 
-@use "../../components/header-with-actions/header-with-actions";
-@use "../../components/headings/headings";
-@use "../../components/icon/icon";
-@use "../../components/link/link";
-@use "../../components/lists/definition-list/definition-list";
-@use "../../components/menu/menu";
-@use "../../components/report/report";
-@use "../../components/navbar/navbar";
-@use "../../components/page-category/page-category";
-@use "../../components/pagination/pagination";
-@use "../../components/progress-bar/progress-bar";
-@use "../../components/status-bar/status-bar";
-@use "../../components/status-indicator/status-indicator";
+@import "../../components/header-with-actions/header-with-actions";
+@import "../../components/headings/headings";
+@import "../../components/icon/icon";
+@import "../../components/link/link";
+@import "../../components/lists/definition-list/definition-list";
+@import "../../components/menu/menu";
+@import "../../components/report/report";
+@import "../../components/navbar/navbar";
+@import "../../components/page-category/page-category";
+@import "../../components/pagination/pagination";
+@import "../../components/progress-bar/progress-bar";
+@import "../../components/status-bar/status-bar";
+@import "../../components/status-indicator/status-indicator";
 
-@use "../../components/table/squishable/squishable";
-@use "../../components/table/tabelle/tabelle";
-@use "../../components/table/tabelle-toggler/tabelle-toggler";
-@use "../../components/table/table/table";
-@use "../../components/table/table-responsive/table-responsive";
-@use "../../components/table/table-totals/table-totals";
-@use "../../components/tabs-nav/tabs-nav";
+@import "../../components/table/squishable/squishable";
+@import "../../components/table/tabelle/tabelle";
+@import "../../components/table/tabelle-toggler/tabelle-toggler";
+@import "../../components/table/table/table";
+@import "../../components/table/table-responsive/table-responsive";
+@import "../../components/table/table-totals/table-totals";
+@import "../../components/tabs-nav/tabs-nav";
 
-@use "../../components/text/text";
+@import "../../components/text/text";
 
-@use "../../blueprints/invoice-detail-layout/invoice-detail-layout";
-@use "../../blueprints/main-layout/main-layout";
-@use "../../blueprints/navbar-layout/navbar-layout";
+@import "../../blueprints/invoice-detail-layout/invoice-detail-layout";
+@import "../../blueprints/main-layout/main-layout";
+@import "../../blueprints/navbar-layout/navbar-layout";

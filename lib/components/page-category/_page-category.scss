@@ -1,8 +1,4 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../fundamentals/typography" as typography;
-
 .page-category {
-  font-size: typography.$font-size-md;
-  color: colors.$brand-blue-50;
+  font-size: $font-size-md;
+  color: $brand-blue-50;
 }

@@ -1,44 +1,37 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../../fundamentals/shadows" as shadows;
-@use "../../../fundamentals/spacers" as spacings;
-@use "../../../fundamentals/typography" as typography;
-@use "../../text/text";
-
 @mixin table-header-style() {
   @extend %heading-font-bold;
   @extend %muted;
 
-  font-size: typography.$font-size-xs;
+  font-size: $font-size-xs;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .table {
-  --border-color-td: #{colors.$brand-gray-50};
+  --border-color-td: #{$brand-gray-50};
 
   border-collapse: collapse;
 
   th {
     @include table-header-style();
 
-    color: colors.$brand-blue-25;
+    color: $brand-blue-25;
     text-align: left;
     align-self: end;
   }
 
   tbody {
-    background-color: colors.$brand-white;
-    color: colors.$brand-blue;
+    background-color: $brand-white;
+    color: $brand-blue;
     vertical-align: top;
-    box-shadow: shadows.$box-shadow-down;
+    box-shadow: $box-shadow-down;
   }
 
   td {
-    padding: spacings.$spacer-sm spacings.$spacer-xs;
+    padding: $spacer-sm $spacer-xs;
     border-top: 1px solid var(--border-color-td);
-    font-size: typography.$font-size-sm;
-    line-height: typography.$paragraph-line-height;
+    font-size: $font-size-sm;
+    line-height: $paragraph-line-height;
     width: 100%;
 
     &:first-child {
@@ -58,7 +51,7 @@
     }
 
     &.action {
-      background-color: colors.$brand-gray-20;
+      background-color: $brand-gray-20;
       width: auto;
       vertical-align: middle;
     }

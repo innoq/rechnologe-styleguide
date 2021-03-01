@@ -1,6 +1,4 @@
-@use "../../../fundamentals/spacers" as spacings;
-
-$space-between: spacings.$spacer-xxs;
+$space-between: $spacer-xxs;
 .button-group {
   margin: -1 * ($space-between / 2);
   display: flex;

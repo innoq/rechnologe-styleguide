@@ -1,6 +1,3 @@
-@use "../../fundamentals/breakpoints" as breakpoints;
-@use "../../fundamentals/spacers" as spacers;
-
 .navbar-layout {
   display: grid;
   /* We expect only the `main` element as a child of this component
@@ -33,7 +30,7 @@
     z-index: 1;
   }
 
-  @include breakpoints.for-tablet-portrait-up {
+  @include for-tablet-portrait-up {
     grid-template-rows: [secondary-navbar-start] 4rem auto [main-content-end];
     grid-template-columns: [navbar-start] 4rem auto [navbar-end] 1fr;
 
@@ -67,7 +64,7 @@
       grid-template-rows: 1px [item-start] calc(4rem - 1px);
       &::before {
         content: "";
-        margin: 0 spacers.$spacer-xs;
+        margin: 0 $spacer-xs;
         border-bottom: 1px solid var(--border-color);
       }
 

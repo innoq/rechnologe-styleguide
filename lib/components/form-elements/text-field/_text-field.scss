@@ -1,23 +1,19 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../../fundamentals/spacers" as spacings;
-@use "../../../fundamentals/typography" as typography;
-
 label {
-  font-size: typography.$font-size-sm;
-  margin-bottom: spacings.$spacer-xxxs;
-  color: colors.$brand-blue-50;
+  font-size: $font-size-sm;
+  margin-bottom: $spacer-xxxs;
+  color: $brand-blue-50;
 }
 
 .form-control {
   @extend %heading-font-regular;
 
-  border: 1px solid colors.$brand-blue-25;
-  height: spacings.$spacer-md;
-  font-size: typography.$font-size-md;
-  padding: spacings.$spacer-xs;
-  color: colors.$brand-blue;
+  border: 1px solid $brand-blue-25;
+  height: $spacer-md;
+  font-size: $font-size-md;
+  padding: $spacer-xs;
+  color: $brand-blue;
 }
 
 .is-invalid {
-  border: 2px solid colors.$brand-red;
+  border: 2px solid $brand-red;
 }

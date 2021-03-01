@@ -1,14 +1,8 @@
 title: Spacers
 description: these spacing variables are available in Sass.
 
-In you SCSS file, import the following:
-
-    @use "../../fundamentals/spacers" as spacings;
-
-Then you can use the spacing variables in your SCSS as in the following example:
-
     .my-css-rule {
-      margin-top: spacings.$spacer-xs;
+      margin-top: $spacer-xs;
     }
 
 ```html

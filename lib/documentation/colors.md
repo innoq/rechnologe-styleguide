@@ -6,11 +6,27 @@ We use the INNOQ colors from the `innoq-styleguide`, so if you want
 to use the colors from SCSS, import them using:
 
 ```
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
 .my-selector {
-  color: colors.$brand-blue
+  color: $brand-blue
 }
+```
+
+## Apricot
+
+```html
+<my-color class="brand-apricot"></my-color>
+<my-color class="brand-apricot-75"></my-color>
+<my-color class="brand-apricot-50"></my-color>
+<my-color class="brand-apricot-25"></my-color>
+```
+
+## Petrol
+
+```html
+<my-color class="brand-petrol"></my-color>
+<my-color class="brand-petrol-75"></my-color>
+<my-color class="brand-petrol-50"></my-color>
+<my-color class="brand-petrol-25"></my-color>
 ```
 
 

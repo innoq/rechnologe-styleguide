@@ -1,29 +1,22 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../fundamentals/helpers" as helpers;
-@use "../../fundamentals/spacers" as spacings;
-@use "../../fundamentals/typography" as typography;
-@use "../../fundamentals/animations" as animations;
-
 .dropdown-button {
   @extend %heading-font-bold;
 
-  border: 2px solid colors.$brand-red;
+  border: 2px solid $brand-red;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: spacings.$spacer-xxs spacings.$spacer-sm;
+  padding: $spacer-xxs $spacer-sm;
   text-decoration: none;
-  color: colors.$brand-red;
-  font-size: typography.$font-size-sm;
+  color: $brand-red;
+  font-size: $font-size-sm;
   line-height: 1;
   min-width: 5rem; //magic number
   white-space: nowrap;
 
   .icon-caret-down {
-    @include helpers.icon-before("icons/caret-down-solid.svg", colors.$brand-red, 1rem);
+    @include icon-before("icons/caret-down-solid.svg", $brand-red, 1rem);
 
-    margin-left: spacings.$spacer-xxs;
+    margin-left: $spacer-xxs;
   }
 }
 
@@ -33,7 +26,7 @@
   }
 
   .icon-dots-vertical {
-    @include helpers.icon-before("icons/dots-vertical.svg", colors.$brand-blue-25, 1.5rem);
+    @include icon-before("icons/dots-vertical.svg", $brand-blue-25, 1.5rem);
   }
 }
 
@@ -41,9 +34,9 @@
   position: relative;
 
   ul {
-    font-size: typography.$font-size-sm;
-    background-color: colors.$brand-gray-10;
-    transition: animations.$standard-transition;
+    font-size: $font-size-sm;
+    background-color: $brand-gray-10;
+    transition: $standard-transition;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -57,10 +50,10 @@
   }
 
   li {
-    padding: spacings.$spacer-xs spacings.$spacer-xs;
+    padding: $spacer-xs $spacer-xs;
 
     a {
-      color: colors.$brand-blue;
+      color: $brand-blue;
       text-decoration: none;
     }
 
@@ -68,13 +61,13 @@
       border: none;
       padding: 0;
       text-align: left;
-      font-size: typography.$font-size-sm;
-      color: colors.$brand-blue;
+      font-size: $font-size-sm;
+      color: $brand-blue;
       background-color: transparent;
     }
 
     &:hover {
-      background-color: colors.$brand-blue-25;
+      background-color: $brand-blue-25;
     }
   }
 

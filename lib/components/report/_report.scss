@@ -1,20 +1,14 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../fundamentals/typography" as typography;
-@use "../../fundamentals/shadows" as shadows;
-@use "../../fundamentals/spacers" as spacings;
-
 .report {
-  --summary-color: #{colors.$brand-yellow-75};
-  box-shadow: shadows.$box-shadow-down;
-  font-size: typography.$font-size-sm;
-  padding: spacings.$spacer-sm spacings.$spacer-sm spacings.$spacer-sm calc(#{spacings.$spacer-base} + #{spacings.$spacer-sm});
-  background-image: linear-gradient(to right, var(--summary-color) spacings.$spacer-base, 0%, colors.$brand-white 100%);
+  --summary-color: #{$brand-yellow-75};
+  box-shadow: $box-shadow-down;
+  font-size: $font-size-sm;
+  padding: $spacer-sm $spacer-sm $spacer-sm calc(#{$spacer-base} + #{$spacer-sm});
+  background-image: linear-gradient(to right, var(--summary-color) $spacer-base, 0%, $brand-white 100%);
   position: relative;
 
   summary {
     @extend %heading-font-bold;
-    font-size: typography.$font-size-sm;
+    font-size: $font-size-sm;
     list-style: none;
   }
 
@@ -28,14 +22,14 @@
     justify-content: center;
     position: absolute;
     left: 0;
-    width: spacings.$spacer-base;
+    width: $spacer-base;
     content: "▶︎";
-    color: colors.$brand-blue;
+    color: $brand-blue;
   }
 
   &[open] {
     summary {
-      margin-bottom: spacings.$spacer-xs;
+      margin-bottom: $spacer-xs;
     }
 
     summary::before {
@@ -44,15 +38,15 @@
   }
 
   p {
-    font-size: typography.$font-size-sm;
-    color: colors.$brand-gray-50;
+    font-size: $font-size-sm;
+    color: $brand-gray-50;
   }
 
   a {
-    color: colors.$brand-red;
+    color: $brand-red;
   }
 }
 
 .report-danger {
-  --summary-color: #{colors.$brand-red-75};
+  --summary-color: #{$brand-red-75};
 }

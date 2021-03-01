@@ -1,11 +1,9 @@
-@use "../../../fundamentals/spacers" as spacings;
-
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: spacings.$spacer-sm;
+  margin-bottom: $spacer-sm;
 
   > * {
-    margin-bottom: spacings.$spacer-xxs;
+    margin-bottom: $spacer-xxs;
   }
 }

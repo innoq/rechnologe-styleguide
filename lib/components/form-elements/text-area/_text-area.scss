@@ -1,18 +1,14 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../../fundamentals/spacers" as spacings;
-@use "../../../fundamentals/typography" as typography;
-
 textarea {
   @extend %heading-font-regular;
 
-  border: 1px solid colors.$brand-blue-25;
-  min-height: spacings.$spacer-base;
-  font-size: typography.$font-size-md;
-  line-height: typography.$paragraph-line-height;
-  padding: spacings.$spacer-xs;
-  color: colors.$brand-blue;
+  border: 1px solid $brand-blue-25;
+  min-height: $spacer-base;
+  font-size: $font-size-md;
+  line-height: $paragraph-line-height;
+  padding: $spacer-xs;
+  color: $brand-blue;
 }
 
 .is-invalid {
-  border: 2px solid colors.$brand-red;
+  border: 2px solid $brand-red;
 }

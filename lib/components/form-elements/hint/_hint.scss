@@ -1,9 +1,5 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-@use "../../../fundamentals/spacers" as spacings;
-@use "../../../fundamentals/typography" as typography;
-
 .form-text {
-  font-size: typography.$font-size-sm;
-  margin-bottom: spacings.$spacer-xxxs;
-  color: colors.$brand-blue-50;
+  font-size: $font-size-sm;
+  margin-bottom: $spacer-xxxs;
+  color: $brand-blue-50;
 }

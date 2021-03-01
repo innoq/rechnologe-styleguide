@@ -1,9 +1,3 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../../fundamentals/breakpoints" as breakpoints;
-@use "../../../fundamentals/spacers" as spacings;
-@use "../table/table" as table;
-
 @mixin responsive-behavior($maxWidth, $nrCols) {
   @media (max-width: #{$maxWidth}) {
     --nr-cols: #{$nrCols};
@@ -19,7 +13,7 @@
         display: grid;
         grid-column: 2 / calc(var(--nr-cols) + 2);
         grid-template-columns: subgrid;
-        padding: spacings.$spacer-md 0 spacings.$spacer-xxs 0;
+        padding: $spacer-md 0 $spacer-xxs 0;
 
         &::before {
           content: attr(data-column);
@@ -28,7 +22,7 @@
       }
 
       td:nth-child(#{$nrCols + 2}) ~ td {
-        padding: spacings.$spacer-xxs 0;
+        padding: $spacer-xxs 0;
       }
     }
   }
@@ -54,10 +48,10 @@ implement this way, because otherwise we would also have to reset all the old
   }
 
   td::before {
-    @include table.table-header-style();
+    @include table-header-style();
   }
 
-  @media (max-width: breakpoints.$desktop) {
+  @media (max-width: $desktop) {
     --border-color-td: transparent;
 
     .hide {
@@ -70,13 +64,13 @@ implement this way, because otherwise we would also have to reset all the old
 
     display: grid;
     grid-template-columns: auto repeat(var(--nr-cols, auto));
-    grid-column-gap: spacings.$spacer-xxs;
+    grid-column-gap: $spacer-xxs;
 
     tr {
-      padding: spacings.$spacer-sm spacings.$spacer-xxs;
+      padding: $spacer-sm $spacer-xxs;
       // For browsers without `subgrid`
       grid-template-columns: 0.5fr repeat(var(--nr-cols), 1fr);
-      grid-column-gap: spacings.$spacer-xxs;
+      grid-column-gap: $spacer-xxs;
     }
 
     thead,
@@ -94,11 +88,11 @@ implement this way, because otherwise we would also have to reset all the old
 
     tbody {
       tr {
-        border: 1px solid colors.$brand-gray-50;
+        border: 1px solid $brand-gray-50;
       }
     }
   }
 
-  @include responsive-behavior($maxWidth: breakpoints.$desktop, $nrCols: 4);
-  @include responsive-behavior($maxWidth: breakpoints.$tablet-landscape, $nrCols: 2);
+  @include responsive-behavior($maxWidth: $desktop, $nrCols: 4);
+  @include responsive-behavior($maxWidth: $tablet-landscape, $nrCols: 2);
 }

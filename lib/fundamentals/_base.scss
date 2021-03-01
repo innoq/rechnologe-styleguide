@@ -1,8 +1,3 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "typography" as typography;
-@use "helpers" as helpers;
-
 * {
   margin-top: 0;
 
@@ -14,13 +9,13 @@
 }
 
 :root {
-  --background-color: colors.$brand-gray-10;
-  font-family: typography.$font-family-sans-serif;
+  --background-color: $brand-gray-10;
+  font-family: $font-family-sans-serif;
 }
 
 body {
   margin: 0;
-  color: colors.$brand-blue;
+  color: $brand-blue;
 }
 
 h1,
@@ -33,5 +28,5 @@ h6 {
 }
 
 .sr-only {
-  @include helpers.visually-hidden();
+  @include visually-hidden();
 }

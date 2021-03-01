@@ -1,24 +1,19 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../fundamentals/spacers" as spacings;
-@use "../../fundamentals/typography" as typography;
-
 .progress-bar {
-  color: colors.$brand-blue-50;
+  color: $brand-blue-50;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  font-size: typography.$font-size-xs;
+  font-size: $font-size-xs;
 
   progress {
     appearance: none;
-    height: spacings.$spacer-xs;
+    height: $spacer-xs;
     border-radius: 1rem;
     width: 100%;
   }
 
   ::-webkit-progress-bar {
-    background-color: colors.$brand-gray-25;
+    background-color: $brand-gray-25;
     border-radius: 1rem;
   }
 
@@ -34,31 +29,31 @@
   // when which progress bar is used.
   &.green {
     ::-webkit-progress-value {
-      background-color: colors.$brand-green;
+      background-color: $brand-green;
     }
 
     ::-moz-progress-bar {
-      background-color: colors.$brand-green;
+      background-color: $brand-green;
     }
   }
 
   &.yellow {
     ::-webkit-progress-value {
-      background-color: colors.$brand-yellow;
+      background-color: $brand-yellow;
     }
 
     ::-moz-progress-bar {
-      background-color: colors.$brand-yellow;
+      background-color: $brand-yellow;
     }
   }
 
   &.red {
     ::-webkit-progress-value {
-      background-color: colors.$brand-red;
+      background-color: $brand-red;
     }
 
     ::-moz-progress-bar {
-      background-color: colors.$brand-red;
+      background-color: $brand-red;
     }
   }
 }
@@ -70,16 +65,16 @@
 
 .progress-bar-avatars {
   list-style: none;
-  margin: 0 0 0 spacings.$spacer-sm;
+  margin: 0 0 0 $spacer-sm;
   padding: 0;
   display: flex;
 
   li {
-    margin-right: spacings.$spacer-xxs;
+    margin-right: $spacer-xxs;
   }
 }
 
 .progress-bar-more-avatars {
-  color: colors.$brand-blue-50;
-  font-size: typography.$font-size-xs;
+  color: $brand-blue-50;
+  font-size: $font-size-xs;
 }

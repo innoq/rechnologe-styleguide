@@ -1,22 +1,17 @@
-@use "innoq-styleguide/dist/sass/settings/colors" as colors;
-
-@use "../../fundamentals/spacers" as spacings;
-@use "../../fundamentals/breakpoints" as breakpoints;
-
 .main-layout {
-  padding: spacings.$spacer-base spacings.$spacer-sm;
-  background-color: colors.$brand-gray-10;
+  padding: $spacer-base $spacer-sm;
+  background-color: $brand-gray-10;
 
   .button-group {
-    margin-top: spacings.$spacer-sm;
+    margin-top: $spacer-sm;
   }
 
   .button-group + * {
-    margin-top: spacings.$spacer-md;
+    margin-top: $spacer-md;
   }
 
-  @include breakpoints.for-tablet-portrait-up {
-    padding: spacings.$spacer-base spacings.$spacer-lg;
+  @include for-tablet-portrait-up {
+    padding: $spacer-base $spacer-lg;
     display: grid;
     grid-template-areas:
       "category buttons"
@@ -43,7 +38,7 @@
       justify-content: flex-end;
 
       & + * {
-        margin-top: spacings.$spacer-lg;
+        margin-top: $spacer-lg;
       }
     }
 
