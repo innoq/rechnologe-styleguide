@@ -33,6 +33,10 @@
     @include icon-before("icons/caret-up-solid.svg", inherit, 1.5rem);
   }
 
+  &.icon-close {
+    @include icon-before("icons/close.svg", inherit, 1.5rem);
+  }
+
   &.icon-crown {
     @include icon-before("icons/crown.svg", inherit, 1.5rem);
   }

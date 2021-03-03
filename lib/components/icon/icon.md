@@ -51,6 +51,12 @@ _caret up_
 <span class="icon icon-caret-up" role="presentation"></span>
 ```
 
+_close_
+
+```html
+<span class="icon icon-close" role="presentation"></span>
+```
+
 _crown_
 
 ```html

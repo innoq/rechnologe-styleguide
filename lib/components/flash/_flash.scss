@@ -1,3 +1,13 @@
 .flash {
-  background: green;
+  padding: $spacer-xs;
+
+  &-alert {
+    background: $brand-red-25;
+  }
+  &-notice {
+    background: $brand-green-25;
+  }
+  &-hint {
+    background: $brand-blue-25;
+  }
 }

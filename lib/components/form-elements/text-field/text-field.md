@@ -13,7 +13,7 @@ A collection of textfields
 </div>
 ```
 
-### Invisible label
+### Invisible label (Screen Reader only)
 
 ```html
 <div class="form-group">
@@ -21,7 +21,7 @@ A collection of textfields
     <input class="form-control" id="label-name" name="label-name" type="text" />
 </div>
 ```
-
+---
 
 ## Error message
 
@@ -36,6 +36,7 @@ A collection of textfields
     <input class="form-control is-invalid" id="text-field" name="text-field" rows="5" aria-describedby="form-text invalid-feedback"></input>
 </div>
 ```
+---
 
 ## Types
 ### Date
@@ -55,6 +56,7 @@ A collection of textfields
     <input class="form-control" id="label-name" name="label-name" type="number" />
 </div>
 ```
+---
 
 ## Sizes
 ### Default
@@ -69,5 +71,30 @@ A collection of textfields
 <div class="form-group">
     <label for="text-field"> Ich bin ein lustiges Label </label>
     <input class="form-control form-control-sm" id="label-name" name="label-name" type="date" />
+</div>
+```
+---
+## Horizontal form
+
+```html
+<div class="form-group row">
+    <label for="inputEmail" class="col-sm-2 col-form-label">Bezahlt am</label>
+    <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail">
+    </div>
+</div>
+```
+
+```html
+
+<div class="form-group row">
+    <label class="col-sm-2 col-form-label" for="payment_amount">Betrag</label>
+    <div class="input-group">
+        <input value="6015.21" class="form-control text-right" step="0.01" type="number"
+            name="payment[amount]" id="payment_amount" />
+        <div class="input-group-append">
+            <span class="input-group-text">EUR</span>
+        </div>
+    </div>
 </div>
 ```

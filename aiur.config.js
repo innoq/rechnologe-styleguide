@@ -21,6 +21,7 @@ module.exports = {
         startpage_backoffice: "./lib/views/startpage-backoffice.md",
         invoices_overview: "./lib/views/invoices-overview.md",
         invoices_detail: "./lib/views/invoices-detail.md",
+        invoices_payment: "./lib/views/invoices-payment.md",
         reports_overview: "./lib/views/reports-overview.md",
       },
     },

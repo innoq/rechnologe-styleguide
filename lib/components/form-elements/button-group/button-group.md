@@ -37,3 +37,12 @@ combine this with different approaches.
     <button class="button primary" type="submit">Neue Rechnung</button>
 </div>
 ```
+
+## Button Group with text link
+
+```html
+<div class="button-group">
+    <button class="button primary" type="submit">Speichern</button>
+    <a href="#" class="text-link">Abbrechen</a>
+</div>
+```

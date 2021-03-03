@@ -10,40 +10,13 @@
     margin-top: $spacer-md;
   }
 
+  .container-main {
+    & > * {
+      margin-bottom: $spacer-md;
+    }
+  }
+
   @include for-tablet-portrait-up {
     padding: $spacer-base $spacer-lg;
-    display: grid;
-    grid-template-areas:
-      "category buttons"
-      "heading buttons"
-      "main main";
-    // Currently assumes a single child item
-    // Default if no row-template is set is `auto` which might have some
-    // unexpected behavior, but it will still be placed.
-    grid-template-rows: min-content min-content 1fr;
-
-    & > * {
-      grid-column: span 2;
-      align-self: start;
-    }
-
-    .page-category {
-      grid-area: category;
-    }
-
-    .button-group {
-      grid-area: buttons;
-      margin: 0;
-      align-self: end;
-      justify-content: flex-end;
-
-      & + * {
-        margin-top: $spacer-lg;
-      }
-    }
-
-    h1 {
-      grid-area: heading;
-    }
   }
 }
