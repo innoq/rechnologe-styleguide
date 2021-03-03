@@ -1,12 +1,10 @@
 textarea {
-  @extend %heading-font-regular;
+  overflow: auto;
+  resize: vertical;
 
-  border: 1px solid $brand-blue-25;
-  min-height: $spacer-base;
-  font-size: $font-size-md;
-  line-height: $paragraph-line-height;
-  padding: $spacer-xs;
-  color: $brand-text;
+  &.form-control {
+    height: auto;
+  }
 }
 
 .is-invalid {

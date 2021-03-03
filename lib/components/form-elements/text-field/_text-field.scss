@@ -1,3 +1,12 @@
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  &.form-control {
+    appearance: none; // Fix appearance for date inputs in Safari
+  }
+}
+
 label {
   font-size: $font-size-sm;
   margin-bottom: $spacer-xxxs;
@@ -8,10 +17,16 @@ label {
   @extend %heading-font-regular;
 
   border: 1px solid $brand-gray-25;
-  height: $spacer-md;
+  height: $spacer-base;
   font-size: $font-size-md;
   padding: $spacer-xs;
   color: $brand-text;
+  background-clip: padding-box;
+
+  &.form-control-sm {
+    height: $spacer-md;
+    padding: 0 $spacer-xs;
+  }
 }
 
 .is-invalid {
