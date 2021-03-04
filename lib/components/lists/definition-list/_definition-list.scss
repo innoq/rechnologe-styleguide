@@ -1,4 +1,27 @@
-.invoice-meta {
+.dl-horizontal {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: $spacer-xxxs $spacer-sm;
+
+  .dl-horizontal-label {
+    @extend %heading-font-bold;
+
+    color: $brand-secondary;
+    font-size: $font-size-md;
+    line-height: $paragraph-line-height;
+  }
+
+  .dl-horizontal-value {
+    @extend %heading-font-regular;
+
+    margin: 0;
+    color: $brand-text;
+    font-size: $font-size-md;
+    line-height: $paragraph-line-height;
+  }
+}
+
+.dl-vertical {
   dt {
     text-transform: uppercase;
     color: $brand-petrol-25;

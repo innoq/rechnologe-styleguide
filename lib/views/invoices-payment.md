@@ -36,22 +36,29 @@ Editing a payment
     <main class="main-layout">
         <div class="container-main">
             <nav class="pagination">
-                <a rel="back" class="link-with-icon" href="#"><span
-                        class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
+                <a rel="back" class="link-with-icon" href="#">
+                    <span class="icon icon-arrow-left" role="presentation"></span>
+                    Zurück
+                </a>
             </nav>
 
-            <h1>D12.34.5678/R08154711</h1>
+            <h1>D12.34.5678 / R08154711</h1>
+            <dl class="dl-horizontal">
+                <dt class="dl-horizontal-label">Leistungszeitraum</dt>
+                <dd class="dl-horizontal-value">1.1.2020 - 1.3.2020</dd>
+                <dt class="dl-horizontal-label">Betrag</dt>
+                <dd class="dl-horizontal-value">8000 EUR</dd>
+            </dl>
 
-            <form role="form" action="/invoices/1116/payment" accept-charset="UTF-8" method="post">
-                <input type="hidden" name="referrer" id="referrer"
-                    value="test" />
+            <form role="form" action="test" accept-charset="UTF-8" method="post">
+                <input type="hidden" name="referrer" id="referrer" value="test" />
 
                 <p>Bitte trage hier das Buchungsdatum und den Betrag der eingetroffenen Zahlung ein.</p>
 
                 <div class="form-group row">
                     <label for="inputEmail" class="col-sm-2 col-form-label">Bezahlt am</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail">
+                        <input type="date" class="form-control" id="inputDate">
                     </div>
                 </div>
 

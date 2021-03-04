@@ -71,8 +71,6 @@ module.exports = {
       children: {
         amount: "./lib/components/amount/amount.md",
         avatar: "./lib/components/avatar/avatar.md",
-        definition_list: "./lib/components/lists/definition-list/definition-list.md",
-        unordered_list: "./lib/components/lists/unordered-list/unordered-list.md",
         editable_indicator: "./lib/components/editable-indicator/editable-indicator.md",
         headings: "./lib/components/headings/headings.md",
         flash: "./lib/components/flash/flash.md",
@@ -89,6 +87,13 @@ module.exports = {
         },
         icon: "./lib/components/icon/icon.md",
         link: "./lib/components/link/link.md",
+        lists: {
+          file: "./lib/components/lists/lists.md",
+          children: {
+            definition_list: "./lib/components/lists/definition-list/definition-list.md",
+            unordered_list: "./lib/components/lists/unordered-list/unordered-list.md",
+          },
+        },
         page_category: "./lib/components/page-category/page-category.md",
         progress_bar: "./lib/components/progress-bar/progress-bar.md",
         status_indicator: "./lib/components/status-indicator/status-indicator.md",

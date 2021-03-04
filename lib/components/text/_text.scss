@@ -1,10 +1,14 @@
 %muted,
 .muted {
-  color: $brand-blue-50;
+  color: $brand-gray-50;
 }
 
 .heavy {
   @extend %heading-font-heavy;
+}
+
+.bold {
+  @extend %heading-font-bold;
 }
 
 .serif {

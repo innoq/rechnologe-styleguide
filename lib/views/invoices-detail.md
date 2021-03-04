@@ -102,7 +102,7 @@ Putting all of the pieces together for the Invoices Detail view.
             <section class="invoice-container">
                 <div class="invoice-header">
                     <h2>Infos</h2>
-                    <dl class="invoice-meta">
+                    <dl class="dl-vertical">
                         <dt>Kunde</dt>
                         <dd>
                             Coole Firma GmbH<br />
@@ -340,6 +340,15 @@ Putting all of the pieces together for the Invoices Detail view.
                             </tr>
                         </tfoot>
                     </table>
+
+                    <h2>Text</h2>
+                    <p class="serif">Toller Text/p>
+                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.
+                        <span class="editable-indicator">
+                            <span class="icon icon-pencil" role="presentation"></span>
+                            <span class="sr-only">Bearbeiten</span>
+                        </span>
+                    </p>
                 </div>
             </section>
         </div>
@@ -555,7 +564,7 @@ Sidebar View "Probleme"
             <section class="invoice-container">
                 <div class="invoice-header">
                     <h2>Infos</h2>
-                    <dl class="invoice-meta">
+                    <dl class="dl-vertical">
                         <dt>Kunde</dt>
                         <dd>
                             Coole Firma GmbH<br />
@@ -1017,7 +1026,7 @@ Sidebar View 'Nachrichten"
             <section class="invoice-container">
                 <div class="invoice-header">
                     <h2>Infos</h2>
-                    <dl class="invoice-meta">
+                    <dl class="dl-vertical">
                         <dt>Kunde</dt>
                         <dd>
                             Coole Firma GmbH<br />

@@ -1,12 +1,21 @@
 title: Definition List
 description: Definition Lists
 
-## Invoice Meta List
+## Horizontal definition list
 
-This list is used listing for invoice meta data
+```html height=200
+<dl class="dl-horizontal">
+    <dt class="dl-horizontal-label">Leistungszeitraum</dt>
+    <dd class="dl-horizontal-value">1.1.2020 - 1.3.2020</dd>
+    <dt class="dl-horizontal-label">Betrag</dt>
+    <dd class="dl-horizontal-value" >8000 EUR</dd>
+</dl>
+```
+
+## Vertical definition List
 
 ```html
-<dl class="invoice-meta">
+<dl class="dl-vertical">
     <dt>Kunde</dt>
     <dd>
         Coole Firma GmbH<br />
@@ -19,23 +28,5 @@ This list is used listing for invoice meta data
     <dd><a href="#">Heribert Innoq</a></dd>
     <dt>Kundennummer</dt>
     <dd>0815</dd>
-    <dt>Leistungszeitraum</dt>
-    <dd>Dezember 2020</dd>
-    <dt>Kostenstelle</dt>
-    <dd>[AA001111] Kostenstelle xyz</dd>
-    <dt>Referenztest für Rechnung</dt>
-    <dd>Bester Text ever</dd>
-    <dt>Angebots-Referenz</dt>
-    <dd>INV/D12.34.567/2020-01-02</dd>
-    <dt>Steuer-ID</dt>
-    <dd>...</dd>
-    <dt>Ust.-Satz</dt>
-    <dd>19%</dd>
-    <dt>Zahlungsbedingungen</dt>
-    <dd>30 Tage netto</dd>
-    <dt>Kommentar zum Kunden</dt>
-    <dd>Bester Kunde</dd>
-    <dt>Weitere Informationen</dt>
-    <dd>Noch besserer Text</dd>
 </dl>
 ```
