@@ -1,22 +1,22 @@
-.invoice-detail-layout {
+.main-with-sidebar-layout {
   display: flex;
   flex-wrap: wrap;
 
   .container-main {
-    & > * {
-      margin-bottom: $spacer-md;
+    > * + * {
+      margin-top: $spacer-md;
     }
   }
   .container-sidebar {
     background-color: $brand-gray-10;
 
-    & > * {
-      margin-bottom: $spacer-md;
+    > * + * {
+      margin-top: $spacer-md;
     }
 
     section {
-      & > * {
-        margin-bottom: $spacer-xs;
+      > * + * {
+        margin-top: $spacer-xs;
       }
 
       margin-bottom: $spacer-lg;
@@ -54,8 +54,10 @@
       grid-template-columns: 1fr 3fr;
       gap: $spacer-xl;
 
-      h2 {
-        margin-bottom: $spacer-md;
+      .invoice-body {
+        > * + * {
+          margin-top: $spacer-md;
+        }
       }
     }
   }

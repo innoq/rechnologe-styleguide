@@ -1,10 +1,10 @@
-title: Invoice Detail Layout
+title: Two column layout
 description: Provides a two column layout component for the main content area
 
 ## Mobile Viewport
 
 ```html width=350 height = 500
-<main class="invoice-detail-layout">
+<main class="2-col-layout">
     <div class="container-main">
         <nav class="pagination">
             <a href="#">Zurück</a>
@@ -34,7 +34,7 @@ description: Provides a two column layout component for the main content area
 ## Larger Viewports
 
 ```html height=500
-<main class="invoice-detail-layout">
+<main class="2-col-layout">
     <div class="container-main">
         <nav class="pagination">
             <a class="link-with-icon" href="#"><span class="icon icon-arrow-left-red" role="presentation"></span>Zurück</a>

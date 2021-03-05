@@ -32,7 +32,7 @@ Putting all of the pieces together for the Invoices Detail view.
         </a>
     </nav>
 
-    <main class="invoice-detail-layout">
+    <main class="main-with-sidebar-layout">
         <div class="container-main">
             <nav class="pagination">
                 <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
@@ -146,9 +146,9 @@ Putting all of the pieces together for the Invoices Detail view.
                     <h2>Text</h2>
                     <p class="serif">Sehr geehrte Frau Ebstein,</p>
                     <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.
-                         <span class="editable-indicator">
-                                <span class="icon icon-pencil" role="presentation"></span>
-                                <span class="sr-only">Bearbeiten</span>
+                        <span class="editable-indicator">
+                            <span class="icon icon-pencil" role="presentation"></span>
+                            <span class="sr-only">Bearbeiten</span>
                         </span>
                     </p>
                     <h2>Leistungen</h2>
@@ -342,8 +342,8 @@ Putting all of the pieces together for the Invoices Detail view.
                     </table>
 
                     <h2>Text</h2>
-                    <p class="serif">Toller Text/p>
-                    <p class="serif">anbei erhalten Sie wie besprochen die Rechnung über unsere Leistungen im Dezember 2019.
+                    <p class="serif">Toller Text</p>
+                    <p class="serif">Hier könnte noch mehr tolles stehen.
                         <span class="editable-indicator">
                             <span class="icon icon-pencil" role="presentation"></span>
                             <span class="sr-only">Bearbeiten</span>
@@ -494,7 +494,7 @@ Sidebar View "Probleme"
         </a>
     </nav>
 
-    <main class="invoice-detail-layout">
+    <main class="main-with-sidebar-layout">
         <div class="container-main">
             <nav class="pagination">
                 <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
@@ -584,7 +584,7 @@ Sidebar View "Probleme"
                                         <span class="sr-only">Error:</span>
                                         Da ist etwas nicht korrekt.
                                     </span>
-                                    <input class="form-control is-invalid" id="text-field" name="text-field" rows="5" aria-describedby="invalid-feedback"></input>
+                                        <input class="form-control form-control-sm is-invalid" id="label-name" name="label-name" type="date" />
                                     <div class="button-group">
                                         <button class="button primary small" type="submit">Speichern</button>
                                         <a href="#" class="text-link small">Abbrechen</a>
@@ -597,7 +597,7 @@ Sidebar View "Probleme"
                             <form>
                                 <div class="form-group">
                                     <label class="sr-only" for="text-field"> Ich bin ein lustiges Label </label>
-                                    <input class="form-input" id="label-name" name="label-name" type="text" />
+                                    <input class="form-control form-control-sm" id="label-name" name="label-name" type="date" />
                                     <div class="button-group">
                                         <button class="button primary small" type="submit">Speichern</button>
                                         <a href="#" class="text-link small">Abbrechen</a>
@@ -956,7 +956,7 @@ Sidebar View 'Nachrichten"
         </a>
     </nav>
 
-    <main class="invoice-detail-layout">
+    <main class="main-with-sidebar-layout">
         <div class="container-main">
             <nav class="pagination">
                 <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>

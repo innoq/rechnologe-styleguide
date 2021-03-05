@@ -1,6 +1,8 @@
 textarea {
   overflow: auto;
   resize: vertical;
+  width: 100%;
+  border: 1px solid $brand-gray-25;
 
   &.form-control {
     height: auto;

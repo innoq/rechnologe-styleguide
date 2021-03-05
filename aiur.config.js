@@ -31,7 +31,7 @@ module.exports = {
       children: {
         navbar_layout: "./lib/blueprints/navbar-layout/navbar-layout.md",
         main_layout: "./lib/blueprints/main-layout/main-layout.md",
-        invoice_detail_layout: "./lib/blueprints/invoice-detail-layout/invoice-detail-layout.md",
+        two_column_layout: "./lib/blueprints/main-with-sidebar-layout/main-with-sidebar-layout.md",
       },
     },
 
