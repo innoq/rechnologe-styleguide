@@ -10,11 +10,15 @@
   }
 
   &.icon-angle-down {
-    @include icon-before("icons/angle-down-solid.svg", inherit, 1.5rem);
+    @include icon-before("icons/angle-down.svg", inherit, 1.5rem);
+  }
+
+  &.icon-angle-left {
+    @include icon-before("icons/angle-left.svg", inherit, 1.5rem);
   }
 
   &.icon-angle-right {
-    @include icon-before("icons/angle-right-solid.svg", inherit, 1.5rem);
+    @include icon-before("icons/angle-right.svg", inherit, 1.5rem);
   }
 
   &.icon-arrow-left {

@@ -9,7 +9,11 @@
 }
 
 .pagination-wrapper {
+  display: flex;
+
   & > * {
+    display: flex;
+    align-items: center;
     margin-left: $spacer-base;
   }
 }

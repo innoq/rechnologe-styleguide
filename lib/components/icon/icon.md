@@ -21,6 +21,12 @@ _angle down_
 <span class="icon icon-angle-down" role="presentation"></span>
 ```
 
+_angle left_
+
+```html
+<span class="icon icon-angle-left" role="presentation"></span>
+```
+
 _angle right_
 
 ```html

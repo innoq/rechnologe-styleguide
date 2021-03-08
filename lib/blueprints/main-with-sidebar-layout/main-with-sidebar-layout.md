@@ -37,7 +37,7 @@ description: Provides a two column layout component for the main content area
 <main class="2-col-layout">
     <div class="container-main">
         <nav class="pagination">
-            <a class="link-with-icon" href="#"><span class="icon icon-arrow-left-red" role="presentation"></span>Zurück</a>
+            <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
             <div class="pagination-wrapper">
                 <a href="#">Vorherige</a>
                 <a href="#">Nächste</a>
