@@ -93,7 +93,7 @@ _eye_
 <span class="icon icon-eye" role="presentation"></span>
 ```
 
-\_error
+_error
 
 ```html
 <span class="icon icon-error" role="presentation"></span>
@@ -109,6 +109,12 @@ _INNOQ_
 
 ```html
 <span class="icon icon-INNOQ" role="presentation"></span>
+```
+
+_paid_
+
+```html
+<span class="icon icon-paid" role="presentation"></span>
 ```
 
 _pencil_

@@ -193,11 +193,6 @@ Putting all of the pieces together for the Invoices Detail view.
                                     </div>
                                 </th>
                                 <th scope="col" role="columnheader" aria-label="Aktion">
-                                    <div class="tabelle-header">
-                                        <span class="header" id="auftragsnr_group" aria-hidden="true">
-                                            <span class="squishable" aria-label="Aktion" style="--squish-at: 11ch;"></span>
-                                        </span>
-                                    </div>
                                 </th>
                             </tr>
                         </thead>

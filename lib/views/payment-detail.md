@@ -1,4 +1,4 @@
-title: Invoices Payment Page
+title: Payment Detail Page
 description: Editing a payment
 
 Editing a payment

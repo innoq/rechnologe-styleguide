@@ -77,6 +77,10 @@
     @include icon-before("icons/pencil.svg", inherit, 1.5rem);
   }
 
+  &.icon-paid {
+    @include icon-before("icons/paid.svg", inherit, 1.5rem);
+  }
+
   &.icon-plane {
     @include icon-before("icons/plane.svg", inherit, 1.5rem);
   }

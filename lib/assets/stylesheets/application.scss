@@ -33,14 +33,17 @@ Application specific code
 @import "../../components/headings/headings";
 @import "../../components/icon/icon";
 @import "../../components/link/link";
+
 @import "../../components/lists/definition-list/definition-list";
 @import "../../components/lists/unordered-list/unordered-list";
+
 @import "../../components/menu/menu";
 @import "../../components/message-list/message-list";
 @import "../../components/report/report";
 @import "../../components/navbar/navbar";
 @import "../../components/page-category/page-category";
 @import "../../components/pagination/pagination";
+@import "../../components/person/person";
 @import "../../components/progress-bar/progress-bar";
 @import "../../components/status-bar/status-bar";
 @import "../../components/status-indicator/status-indicator";
@@ -51,11 +54,9 @@ Application specific code
 @import "../../components/table/table/table";
 @import "../../components/table/table-responsive/table-responsive";
 @import "../../components/table/table-totals/table-totals";
+
 @import "../../components/tabs-nav/tabs-nav";
-
 @import "../../components/text/text";
-
-@import "../../components/person/person";
 
 @import "../../blueprints/main-with-sidebar-layout/main-with-sidebar-layout";
 @import "../../blueprints/main-layout/main-layout";

@@ -8,31 +8,31 @@
   }
 
   &--asc {
-    @include icon-before("icons/caret-up-solid.svg", $brand-blue-25);
+    @include icon-before("icons/caret-up-solid.svg", $brand-gray-25);
     cursor: pointer;
   }
 
   &--desc {
-    @include icon-before("icons/caret-down-solid.svg", $brand-blue-25);
+    @include icon-before("icons/caret-down-solid.svg", $brand-gray-25);
     cursor: pointer;
   }
 
   &:checked + &--asc::before,
   &:checked + &--desc::before {
-    background-color: $brand-blue-75;
+    background-color: $brand-gray-75;
   }
 
   &:hover + &--asc::before,
   &:hover + &--desc::before,
   &:focus + &--asc::before,
   &:focus + &--desc::before {
-    background-color: $brand-blue-50;
+    background-color: $brand-gray-50;
   }
 }
 
 .tabelle-input {
   max-width: 100%;
-  border: 1px solid $brand-blue-25;
+  border: 1px solid $brand-gray-25;
   padding: 0.25rem 0.5rem;
 }
 
@@ -45,6 +45,7 @@
     "header arrow-asc"
     "header arrow-desc"
     "search search";
+  padding: $spacer-xxs;
 
   .header {
     grid-area: header;

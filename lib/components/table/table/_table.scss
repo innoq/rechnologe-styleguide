@@ -32,7 +32,6 @@
     border-top: 1px solid var(--border-color-td);
     font-size: $font-size-sm;
     line-height: $paragraph-line-height;
-    width: 100%;
 
     &:first-child {
       border-left: 1px solid var(--border-color-td);
@@ -52,7 +51,6 @@
 
     &.action {
       background-color: $brand-gray-20;
-      width: auto;
       vertical-align: middle;
     }
   }

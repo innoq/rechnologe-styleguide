@@ -1,6 +1,7 @@
 .main-with-sidebar-layout {
   display: flex;
   flex-wrap: wrap;
+  min-height: 100vh;
 
   .container-main {
     > * + * {

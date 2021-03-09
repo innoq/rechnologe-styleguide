@@ -5,10 +5,6 @@
   grid-template-rows: 1fr [secondary-navbar-start] 3rem [navbar-start] auto;
   min-height: 100vh;
 
-  main {
-    height: 100vh;
-  }
-
   .navbar {
     --col-width: 0;
     position: sticky;

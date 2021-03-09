@@ -2,18 +2,8 @@
   padding: $spacer-base $spacer-sm;
   background-color: $brand-gray-10;
 
-  .button-group {
-    margin-top: $spacer-sm;
-  }
-
-  .button-group + * {
+  > * + * {
     margin-top: $spacer-md;
-  }
-
-  .container-main {
-    & > * {
-      margin-bottom: $spacer-md;
-    }
   }
 
   @include for-tablet-portrait-up {

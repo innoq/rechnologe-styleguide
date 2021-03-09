@@ -1,15 +1,32 @@
 .header-with-actions {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  @include for-tablet-portrait-up {
+    display: grid;
+    grid-template-areas:
+      "category actions"
+      "heading actions";
+    grid-template-columns: auto max-content;
+
+    .page-category {
+      grid-area: category;
+    }
+
+    h1 {
+      grid-area: heading;
+    }
+
+    .header-with-actions-wrapper {
+      grid-area: actions;
+      justify-self: end;
+      align-self: end;
+    }
+  }
 }
 
 .header-with-actions-wrapper {
   display: flex;
   align-items: center;
 
-  & > * {
+  & :not(:first-child) {
     margin-left: $spacer-md;
   }
 }

@@ -78,12 +78,14 @@ Putting all of the pieces together for the Invoices view.
     </nav>
 
     <main class="main-layout">
-        <div class="page-category">Rechnungserstellung</div>
-        <h1>Keine freizugebenden Leistungen</h1>
-        <div class="button-group">
-            <button class="button tertiary" type="submit">Alle ermahnen</button>
-            <button class="button primary" type="submit">Neue Rechnung</button>
-        </div>
+        <header class="header-with-actions">
+            <div class="page-category">Rechnungserstellung</div>
+            <h1>Freizugebende Leistungen</h1>
+            <div class="header-with-actions-wrapper">
+                <button class="button tertiary" type="submit">Alle ermahnen</button>
+                <button class="button primary" type="submit">Neue Rechnung</button>
+            </div>
+        </header>
 
         <div>
             <div>

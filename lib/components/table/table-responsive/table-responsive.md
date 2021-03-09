@@ -29,7 +29,9 @@ which uses `Squishable` under the hood in order for an abbreviation of the colum
     <table role="table" class="table table-responsive">
         <thead role="rowgroup">
             <tr role="row">
-                <th class="table-toggler-cell" scope="col" role="columnheader"><span class="sr-only">Einträge auf/zuklappen</span></th>
+                <th class="table-toggler-cell" scope="col" role="columnheader">
+                    <span class="sr-only">Einträge auf/zuklappen</span>
+                </th>
                 <th scope="col" role="columnheader" aria-label="Auftragsnr.">
                     <div class="tabelle-header">
                         <span class="header" id="auftragsnr_group" aria-hidden="true">
