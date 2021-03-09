@@ -11,6 +11,7 @@
   --border-color-td: #{$brand-gray-50};
 
   border-collapse: collapse;
+  width: 100%;
 
   th {
     @include table-header-style();

@@ -87,7 +87,7 @@ Putting all of the pieces together for the Invoices view.
             </div>
         </header>
 
-        <div>
+        <section>
             <div>
                 <span class="muted">Gesamt:</span>
                 <span class="amount">2,575.00€</span>
@@ -430,7 +430,7 @@ Putting all of the pieces together for the Invoices view.
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </section>
     </main>
 </div>
 ```
