@@ -231,10 +231,10 @@ Putting all of the pieces together for the Invoices view.
                             D12.34.567
                         </td>
                         <td role="cell" data-column="Sale Order Name">
-                            Quality-focused bandwidth-monitored parallelism
+                            <a href="#">Quality-focused bandwidth-monitored parallelism</a>
                         </td>
                         <td role="cell" data-column="Kunde" class="muted">
-                            Stiedemann, Wolff and Pachocha
+                            Mega Firma
                         </td>
                         <td role="cell" data-column="Principal" class="muted">
                             Jörg Müller
@@ -276,7 +276,7 @@ Putting all of the pieces together for the Invoices view.
                             Quality-focused bandwidth-monitored parallelism
                         </td>
                         <td role="cell" data-column="Kunde" class="muted">
-                            Stiedemann, Wolff and Pachocha
+                            Mega Firma
                         </td>
                         <td role="cell" data-column="Principal" class="muted">
                             Jörg Müller
@@ -319,7 +319,7 @@ Putting all of the pieces together for the Invoices view.
                             Quality-focused bandwidth-monitored parallelism
                         </td>
                         <td role="cell" data-column="Kunde" class="muted">
-                            Stiedemann, Wolff and Pachocha
+                            Mega Firma
                         </td>
                         <td role="cell" data-column="Principal" class="muted">
                             Jörg Müller
@@ -362,7 +362,7 @@ Putting all of the pieces together for the Invoices view.
                             Quality-focused bandwidth-monitored parallelism
                         </td>
                         <td role="cell" data-column="Kunde" class="muted">
-                            Stiedemann, Wolff and Pachocha
+                            Mega Firma
                         </td>
                         <td role="cell" data-column="Principal" class="muted">
                             Jörg Müller
@@ -405,7 +405,7 @@ Putting all of the pieces together for the Invoices view.
                             Quality-focused bandwidth-monitored parallelism
                         </td>
                         <td role="cell" data-column="Kunde" class="muted">
-                            Stiedemann, Wolff and Pachocha
+                            Mega Firma
                         </td>
                         <td role="cell" data-column="Principal" class="muted">
                             Jörg Müller

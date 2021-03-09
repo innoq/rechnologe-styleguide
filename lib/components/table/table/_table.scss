@@ -54,6 +54,10 @@
       background-color: $brand-gray-20;
       vertical-align: middle;
     }
+
+    a {
+      text-decoration: none;
+    }
   }
 
   tr:last-child td {
