@@ -4,7 +4,7 @@ description: Provides a two column layout component for the main content area
 ## Mobile Viewport
 
 ```html width=350 height = 500
-<main class="2-col-layout">
+<main class="main-with-sidebar-layout">
     <div class="container-main">
         <nav class="pagination">
             <a href="#">Zurück</a>
@@ -34,7 +34,7 @@ description: Provides a two column layout component for the main content area
 ## Larger Viewports
 
 ```html height=500
-<main class="2-col-layout">
+<main class="main-with-sidebar-layout">
     <div class="container-main">
         <nav class="pagination">
             <a class="link-with-icon" href="#"><span class="icon icon-arrow-left" role="presentation"></span>Zurück</a>
